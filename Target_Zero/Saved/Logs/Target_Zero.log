@@ -8918,3 +8918,1741 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.10.12-13.12.28:438][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.10.12-13.12.28:499][692]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
 [2023.10.12-13.12.28:499][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.13.57:060][121]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.12-13.13.57:107][121]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.12-13.13.57:130][122]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.12-13.14.02:533][285]LogContentBrowser: Attempting asset rename: NewFolder -> anim_2
+[2023.10.12-13.14.02:533][285]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.12-13.14.11:763][526]LogContentBrowser: Attempting asset rename: animation -> anim_1
+[2023.10.12-13.14.11:848][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-13.14.11:981][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_forward_right
+[2023.10.12-13.14.11:981][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_forward_rightDFE9438B41A4225A7EFDCB8B25F303DB.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_forward_right.uasset'
+[2023.10.12-13.14.11:991][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_forward_left
+[2023.10.12-13.14.11:991][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_forward_left6796D33A40D2B6D376AD15A7D36759BC.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_forward_left.uasset'
+[2023.10.12-13.14.12:004][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_crouching_right
+[2023.10.12-13.14.12:005][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_right1D9CC60F451FC5E5BD7BB3B6C24583BD.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_crouching_right.uasset'
+[2023.10.12-13.14.12:016][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_crouching_left
+[2023.10.12-13.14.12:016][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_left11F7B581489893DF359854A97BC3D571.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_crouching_left.uasset'
+[2023.10.12-13.14.12:031][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/death_from_front_headshot
+[2023.10.12-13.14.12:031][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_front_headshotBB029586493B69C03FBA9B965D3E8BAE.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/death_from_front_headshot.uasset'
+[2023.10.12-13.14.12:045][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_crouching_forward
+[2023.10.12-13.14.12:045][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_forward13BD06734E8F4B7CF29D08B9E1374D76.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_crouching_forward.uasset'
+[2023.10.12-13.14.12:055][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_crouching_forward_right
+[2023.10.12-13.14.12:056][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_forward_right6791621D45C8447828061F8EA80246F5.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_crouching_forward_right.uasset'
+[2023.10.12-13.14.12:067][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_crouching_forward_left
+[2023.10.12-13.14.12:067][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_forward_left7C4F738F45754091384086B39D294333.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_crouching_forward_left.uasset'
+[2023.10.12-13.14.12:092][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/death_from_back_headshot
+[2023.10.12-13.14.12:092][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_back_headshot1888084A420942DC86DFD7B7FC92C1EC.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/death_from_back_headshot.uasset'
+[2023.10.12-13.14.12:105][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_crouching_backward
+[2023.10.12-13.14.12:105][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_backwardD2B2860F4B825F935C306DB7E348177D.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_crouching_backward.uasset'
+[2023.10.12-13.14.12:119][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_crouching_backward_right
+[2023.10.12-13.14.12:119][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_backward_right97CEF6EB49A81E8735547A8E3836BA29.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_crouching_backward_right.uasset'
+[2023.10.12-13.14.12:131][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_crouching_backward_left
+[2023.10.12-13.14.12:131][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_backward_leftE62D776B4A5D6DC6FEEBF3AE7A72D937.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_crouching_backward_left.uasset'
+[2023.10.12-13.14.12:142][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_backward
+[2023.10.12-13.14.12:142][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_backward5D5787A640F68A3552541598A7FFD0A9.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_backward.uasset'
+[2023.10.12-13.14.12:154][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_backward_right
+[2023.10.12-13.14.12:154][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_backward_right3BE845A1423C45E0DFDC62B97EC98AF7.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_backward_right.uasset'
+[2023.10.12-13.14.12:176][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/death_crouching_headshot_front
+[2023.10.12-13.14.12:176][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_crouching_headshot_front0D8391764E8CD507075C81B6DF65A351.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/death_crouching_headshot_front.uasset'
+[2023.10.12-13.14.12:191][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_backward_left
+[2023.10.12-13.14.12:191][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_backward_left6C613F0E4A6501A4F81E46BA7BE24063.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_backward_left.uasset'
+[2023.10.12-13.14.12:204][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/turn_90_right
+[2023.10.12-13.14.12:204][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/turn_90_right2A097B754FE3AD381CCCE3B67C9E4EE3.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/turn_90_right.uasset'
+[2023.10.12-13.14.12:217][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/turn_90_left
+[2023.10.12-13.14.12:217][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/turn_90_left95690741448770E414B874B827C03494.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/turn_90_left.uasset'
+[2023.10.12-13.14.12:230][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/sprint_right
+[2023.10.12-13.14.12:230][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_right2E636D054C571F657FD5829567886445.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/sprint_right.uasset'
+[2023.10.12-13.14.12:242][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/sprint_left
+[2023.10.12-13.14.12:243][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_leftB3CE8B8641078454546D74B16E88B23A.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/sprint_left.uasset'
+[2023.10.12-13.14.12:254][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/sprint_forward
+[2023.10.12-13.14.12:254][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_forwardF217C9524C54B76530D243BFB370B443.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/sprint_forward.uasset'
+[2023.10.12-13.14.12:267][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/sprint_forward_right
+[2023.10.12-13.14.12:267][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_forward_rightE75B6F564A62FED0E372BFBDF6C78664.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/sprint_forward_right.uasset'
+[2023.10.12-13.14.12:280][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/sprint_forward_left
+[2023.10.12-13.14.12:280][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_forward_leftEBED736F4F359E1B41B7EDBAA3E9F49F.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/sprint_forward_left.uasset'
+[2023.10.12-13.14.12:291][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/sprint_backward
+[2023.10.12-13.14.12:291][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_backward620AA1D7417B0A13329BAEB0AB2D1D1F.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/sprint_backward.uasset'
+[2023.10.12-13.14.12:303][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/crouching_turn_90_right
+[2023.10.12-13.14.12:303][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/crouching_turn_90_right41F2AA40402A7B778629E1988F9E5269.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/crouching_turn_90_right.uasset'
+[2023.10.12-13.14.12:316][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/sprint_backward_right
+[2023.10.12-13.14.12:316][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_backward_rightE751C9DD4E5A4DFAD5DCA198D85E37B5.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/sprint_backward_right.uasset'
+[2023.10.12-13.14.12:328][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/sprint_backward_left
+[2023.10.12-13.14.12:328][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_backward_left90167EBC42CD289C19EE7EA52C9C05BF.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/sprint_backward_left.uasset'
+[2023.10.12-13.14.12:342][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/run_right
+[2023.10.12-13.14.12:342][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_right65E9EE1445785F010DCCAF86CF5C985C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/run_right.uasset'
+[2023.10.12-13.14.12:354][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/run_left
+[2023.10.12-13.14.12:354][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_left6F8A29A24BFDB95CBA9501907D775204.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/run_left.uasset'
+[2023.10.12-13.14.12:369][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/run_forward
+[2023.10.12-13.14.12:369][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_forward2B445AFA4A671A2F54982C9A7A9A48AD.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/run_forward.uasset'
+[2023.10.12-13.14.12:382][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/run_forward_right
+[2023.10.12-13.14.12:382][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_forward_right02983BA14BDBA315991E8F9163F1C9B0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/run_forward_right.uasset'
+[2023.10.12-13.14.12:395][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/run_forward_left
+[2023.10.12-13.14.12:395][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_forward_leftF4CCA36C4770523A1B7046BF74A457B0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/run_forward_left.uasset'
+[2023.10.12-13.14.12:407][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/run_backward
+[2023.10.12-13.14.12:407][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_backwardA90D60A74C9B4A5F0769DE820B3870D2.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/run_backward.uasset'
+[2023.10.12-13.14.12:420][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/run_backward_right
+[2023.10.12-13.14.12:420][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_backward_right4D46238A4A4F646352810D996E68C829.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/run_backward_right.uasset'
+[2023.10.12-13.14.12:434][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/crouching_turn_90_left
+[2023.10.12-13.14.12:434][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/crouching_turn_90_leftF10C4F78409383CDB6C4BCABC0E90E05.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/crouching_turn_90_left.uasset'
+[2023.10.12-13.14.12:445][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/run_backward_left
+[2023.10.12-13.14.12:445][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_backward_left2C9D2BB64EB5BC8D40E0D5B46820DAE0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/run_backward_left.uasset'
+[2023.10.12-13.14.12:457][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/jump_up
+[2023.10.12-13.14.12:457][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/jump_up56104640454031E43CF7E2B8275F78DC.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/jump_up.uasset'
+[2023.10.12-13.14.12:469][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/jump_loop
+[2023.10.12-13.14.12:469][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/jump_loopC8C699AA4FE55C8530DC78A8586EF387.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/jump_loop.uasset'
+[2023.10.12-13.14.12:483][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/jump_down
+[2023.10.12-13.14.12:483][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/jump_down2BFE3E41461AFFA2FED5B5B6603EA73B.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/jump_down.uasset'
+[2023.10.12-13.14.12:484][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/charcter_bundle/anim_1/idle" FILE="../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/idle.uasset" SILENT=true
+[2023.10.12-13.14.12:495][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/idle
+[2023.10.12-13.14.12:495][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/idleC980D81441BC64C51DBA49B1FC162367.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/idle.uasset'
+[2023.10.12-13.14.12:508][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/idle_crouching
+[2023.10.12-13.14.12:508][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/idle_crouching965955C7402224E7752148ADAB77E75C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/idle_crouching.uasset'
+[2023.10.12-13.14.12:520][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/idle_crouching_aiming
+[2023.10.12-13.14.12:521][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/idle_crouching_aimingE0CE5705435E02AED23609B1F91FC975.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/idle_crouching_aiming.uasset'
+[2023.10.12-13.14.12:532][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/idle_aiming
+[2023.10.12-13.14.12:532][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/idle_aiming27D0D916442EBCD49DEBBFB0E98BFB93.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/idle_aiming.uasset'
+[2023.10.12-13.14.12:544][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/death_from_the_front
+[2023.10.12-13.14.12:544][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_the_front92BC6F654484104A79A39DA8D51A5B2A.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/death_from_the_front.uasset'
+[2023.10.12-13.14.12:561][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/death_from_the_back
+[2023.10.12-13.14.12:561][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_the_backFE8C101C496B0F25F6A0F19EBB0A7F11.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/death_from_the_back.uasset'
+[2023.10.12-13.14.12:575][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/death_from_right
+[2023.10.12-13.14.12:575][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_right845FFAC1418C363BD99EF28DBBB5A5BA.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/death_from_right.uasset'
+[2023.10.12-13.14.12:588][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_right
+[2023.10.12-13.14.12:588][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_rightC47BDE3A44800050E063C49C61E7BD65.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_right.uasset'
+[2023.10.12-13.14.12:600][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_left
+[2023.10.12-13.14.12:600][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_left9831D5AA4A482CF1632E69AA2D5349CF.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_left.uasset'
+[2023.10.12-13.14.12:613][526]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_1/walk_forward
+[2023.10.12-13.14.12:613][526]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_forward866CCBD14689D17BC849889077F9B464.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_1/walk_forward.uasset'
+[2023.10.12-13.14.12:651][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 803 ms (total: 12.0 sec)
+[2023.10.12-13.14.12:780][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.10.12-13.14.12:789][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.10.12-13.14.12:794][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.10.12-13.14.12:837][526]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_forward_right.walk_forward_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_forward_left.walk_forward_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_crouching_right.walk_crouching_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_crouching_left.walk_crouching_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/death_from_front_headshot.death_from_front_headshot
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_crouching_forward.walk_crouching_forward
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_crouching_forward_right.walk_crouching_forward_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_crouching_forward_left.walk_crouching_forward_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/death_from_back_headshot.death_from_back_headshot
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_crouching_backward.walk_crouching_backward
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_crouching_backward_right.walk_crouching_backward_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_crouching_backward_left.walk_crouching_backward_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_backward.walk_backward
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_backward_right.walk_backward_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/death_crouching_headshot_front.death_crouching_headshot_front
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_backward_left.walk_backward_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/turn_90_right.turn_90_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/turn_90_left.turn_90_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/sprint_right.sprint_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/sprint_left.sprint_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/sprint_forward.sprint_forward
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/sprint_forward_right.sprint_forward_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/sprint_forward_left.sprint_forward_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/sprint_backward.sprint_backward
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/crouching_turn_90_right.crouching_turn_90_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/sprint_backward_right.sprint_backward_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/sprint_backward_left.sprint_backward_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/run_right.run_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/run_left.run_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/run_forward.run_forward
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/run_forward_right.run_forward_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/run_forward_left.run_forward_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/run_backward.run_backward
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/run_backward_right.run_backward_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/crouching_turn_90_left.crouching_turn_90_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/run_backward_left.run_backward_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/jump_up.jump_up
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/jump_loop.jump_loop
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/jump_down.jump_down
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/idle.idle
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/idle_crouching.idle_crouching
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/idle_crouching_aiming.idle_crouching_aiming
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/idle_aiming.idle_aiming
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/death_from_the_front.death_from_the_front
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/death_from_the_back.death_from_the_back
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/death_from_right.death_from_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_right.walk_right
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_left.walk_left
+[2023.10.12-13.14.12:837][526]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_1/walk_forward.walk_forward
+[2023.10.12-13.15.15:127][980]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/firing rifle.fbx)
+[2023.10.12-13.15.15:138][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/firing rifle.fbx
+[2023.10.12-13.15.15:173][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.21:756][980]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.21:826][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.21:827][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.21:827][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.22:684][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/firing_rifle.firing_rifle
+[2023.10.12-13.15.22:695][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/firing_rifle.firing_rifle
+[2023.10.12-13.15.22:699][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/hit reaction.fbx)
+[2023.10.12-13.15.22:705][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/firing_rifle.firing_rifle, at AnimationSequence/9115eba1ba0703aafe630d76f3cf4ea3257765b0
+[2023.10.12-13.15.22:711][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/hit reaction.fbx
+[2023.10.12-13.15.22:748][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.22:751][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.22:753][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.22:753][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.26:447][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/hit_reaction.hit_reaction
+[2023.10.12-13.15.26:456][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/reloading.fbx)
+[2023.10.12-13.15.26:468][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/reloading.fbx
+[2023.10.12-13.15.26:511][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.26:514][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.26:515][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.26:516][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.26:518][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.26:869][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/hit_reaction.hit_reaction, at AnimationSequence/2cdf244c1a5b096870cfdd2349997d4b2410f137
+[2023.10.12-13.15.38:038][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/reloading.reloading
+[2023.10.12-13.15.38:044][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/rifle aiming idle.fbx)
+[2023.10.12-13.15.38:050][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/rifle aiming idle.fbx
+[2023.10.12-13.15.38:071][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.38:074][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.38:075][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.38:075][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.39:067][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/rifle_aiming_idle.rifle_aiming_idle
+[2023.10.12-13.15.39:072][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/rifle jump.fbx)
+[2023.10.12-13.15.39:078][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/rifle jump.fbx
+[2023.10.12-13.15.39:102][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.39:104][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.39:105][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.39:117][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/rifle_aiming_idle.rifle_aiming_idle, at AnimationSequence/8eaaa8806340deef64d0053b61773ef2ca96d885
+[2023.10.12-13.15.40:375][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/reloading.reloading, at AnimationSequence/a81c3e27850e0e6c25f81ca84b92ee42aeb6dc65
+[2023.10.12-13.15.40:457][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/rifle_jump.rifle_jump
+[2023.10.12-13.15.40:462][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/rifle run.fbx)
+[2023.10.12-13.15.40:468][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/rifle run.fbx
+[2023.10.12-13.15.40:488][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.40:489][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.40:490][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.40:491][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.40:491][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.40:514][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/rifle_jump.rifle_jump, at AnimationSequence/9d347257d22184e40e6b25fc49db9dc589efd964
+[2023.10.12-13.15.41:270][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/rifle_run.rifle_run
+[2023.10.12-13.15.41:276][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/run backwards.fbx)
+[2023.10.12-13.15.41:282][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/run backwards.fbx
+[2023.10.12-13.15.41:287][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/rifle_run.rifle_run, at AnimationSequence/654e0fb3f981703a026f08efef3691273ee3d561
+[2023.10.12-13.15.41:305][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.41:306][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.41:307][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.41:307][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.42:037][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/run_backwards.run_backwards
+[2023.10.12-13.15.42:051][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/run_backwards.run_backwards
+[2023.10.12-13.15.42:055][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/strafe (2).fbx)
+[2023.10.12-13.15.42:061][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/strafe (2).fbx
+[2023.10.12-13.15.42:066][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/run_backwards.run_backwards, at AnimationSequence/11d3147cec31990c954fad1ff53f3265d7200e82
+[2023.10.12-13.15.42:091][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.42:093][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.42:093][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.42:940][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/strafe__2_.strafe__2_
+[2023.10.12-13.15.42:958][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/strafe__2_.strafe__2_
+[2023.10.12-13.15.42:961][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/strafe left.fbx)
+[2023.10.12-13.15.42:973][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/strafe left.fbx
+[2023.10.12-13.15.42:974][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/strafe__2_.strafe__2_, at AnimationSequence/c2040cbff3ad779f86666e4d9f006f4266b6ca32
+[2023.10.12-13.15.43:011][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.43:013][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.43:015][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.43:016][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.44:074][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/strafe_left.strafe_left
+[2023.10.12-13.15.44:080][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/strafe right.fbx)
+[2023.10.12-13.15.44:093][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/strafe right.fbx
+[2023.10.12-13.15.44:122][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/strafe_left.strafe_left, at AnimationSequence/142407c77dcba8cd0917389148a139162413952e
+[2023.10.12-13.15.44:137][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.44:140][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.44:141][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.44:141][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.45:191][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/strafe_right.strafe_right
+[2023.10.12-13.15.45:198][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/strafe.fbx)
+[2023.10.12-13.15.45:210][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/strafe.fbx
+[2023.10.12-13.15.45:250][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.45:251][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/strafe_right.strafe_right, at AnimationSequence/4351bca1ff726b65b8ca23f452f90ec9be1fdf50
+[2023.10.12-13.15.45:253][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.45:253][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.45:253][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.45:253][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.45:253][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.45:254][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.45:255][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.45:255][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.15.46:197][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/strafe.strafe
+[2023.10.12-13.15.46:209][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/strafe.strafe
+[2023.10.12-13.15.46:212][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/toss grenade.fbx)
+[2023.10.12-13.15.46:223][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/strafe.strafe, at AnimationSequence/ceb69ff73f5d78a695883de9d17e1b843dea119f
+[2023.10.12-13.15.46:225][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/toss grenade.fbx
+[2023.10.12-13.15.46:264][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.15.46:266][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.15.46:267][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.15.46:270][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.16.08:669][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/toss_grenade.toss_grenade
+[2023.10.12-13.16.08:677][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/turn left.fbx)
+[2023.10.12-13.16.08:683][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/turn left.fbx
+[2023.10.12-13.16.08:703][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.16.08:705][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.16.08:706][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.16.09:463][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/turn_left.turn_left
+[2023.10.12-13.16.09:469][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/turning right 45 degrees.fbx)
+[2023.10.12-13.16.09:475][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/turning right 45 degrees.fbx
+[2023.10.12-13.16.09:479][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/turn_left.turn_left, at AnimationSequence/e9ff09cfdfc661074055d0aa2f174942beee40b3
+[2023.10.12-13.16.09:498][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.16.09:499][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.16.09:499][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.16.09:499][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.16.09:499][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.16.09:499][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.16.09:499][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.16.09:500][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.16.09:501][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.16.09:501][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.16.10:282][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/turning_right_45_degrees.turning_right_45_degrees
+[2023.10.12-13.16.10:302][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/turning_right_45_degrees.turning_right_45_degrees
+[2023.10.12-13.16.10:305][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/walking backwards.fbx)
+[2023.10.12-13.16.10:312][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/walking backwards.fbx
+[2023.10.12-13.16.10:324][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/turning_right_45_degrees.turning_right_45_degrees, at AnimationSequence/d0ae211795e9af0cda8a600d93bd8a12287a6b81
+[2023.10.12-13.16.10:335][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.16.10:337][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.16.10:338][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.16.11:111][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/walking_backwards.walking_backwards
+[2023.10.12-13.16.11:143][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/walking_backwards.walking_backwards
+[2023.10.12-13.16.11:145][980]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/walking.fbx)
+[2023.10.12-13.16.11:152][980]LogFbx: Loading FBX Scene from ../../../../../migrate/of_site_project/gameing-assets/animation/Basic Shooter Pack/walking.fbx
+[2023.10.12-13.16.11:174][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/walking_backwards.walking_backwards, at AnimationSequence/24e7b3cba73408ee0eea2b3a719baa5430767081
+[2023.10.12-13.16.11:175][980]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.12-13.16.11:176][980]LogFbx: SortedLinks :(0) Hips
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(1) Spine
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(2) Spine1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(3) Spine2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(4) Neck
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(5) Head
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(6) HeadTop_End
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(7) LeftShoulder
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(8) LeftArm
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(9) LeftForeArm
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(10) LeftHand
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(23) LeftHandRing1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(24) LeftHandRing2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(25) LeftHandRing3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(26) LeftHandRing4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(31) RightShoulder
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(32) RightArm
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(33) RightForeArm
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(34) RightHand
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(35) RightHandThumb1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(36) RightHandThumb2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(37) RightHandThumb3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(38) RightHandThumb4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(39) RightHandIndex1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(40) RightHandIndex2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(41) RightHandIndex3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(42) RightHandIndex4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(47) RightHandRing1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(48) RightHandRing2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(49) RightHandRing3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(50) RightHandRing4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(51) RightHandPinky1
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(52) RightHandPinky2
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(53) RightHandPinky3
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(54) RightHandPinky4
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(55) LeftUpLeg
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(56) LeftLeg
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(57) LeftFoot
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(58) LeftToeBase
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(59) LeftToe_End
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(60) RightUpLeg
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(61) RightLeg
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(62) RightFoot
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(63) RightToeBase
+[2023.10.12-13.16.11:177][980]LogFbx: SortedLinks :(64) RightToe_End
+[2023.10.12-13.16.11:178][980]LogFbx: Parsing AnimStack mixamo.com
+[2023.10.12-13.16.11:949][980]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/charcter_bundle/anim_2/walking.walking
+[2023.10.12-13.16.11:961][980]LogAutomationController: Ignoring very large delta of 77.91 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.10.12-13.16.11:962][981]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/walking.walking, at AnimationSequence/9714681398edbcbdad72649ecff4f5bc7d58b54d
+[2023.10.12-13.16.12:621][  1]LogAnimationCompression: Display: Storing compressed animation data for /Game/charcter_bundle/anim_2/toss_grenade.toss_grenade, at AnimationSequence/d3b10e7210c0b996fb1db4d237c3b95d12956ce5
+[2023.10.12-13.16.16:475][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.10.12-13.16.17:905][108]LogSlate: Window 'Save Content' being destroyed
+[2023.10.12-13.16.17:967][108]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-13.16.18:213][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/firing_rifle
+[2023.10.12-13.16.18:213][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/firing_rifle053D8DE743D4C441F8C09A8FF67642C0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/firing_rifle.uasset'
+[2023.10.12-13.16.18:252][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/hit_reaction
+[2023.10.12-13.16.18:252][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/hit_reaction7FF56FE0421A92B655B051AC1CDAFB06.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/hit_reaction.uasset'
+[2023.10.12-13.16.18:307][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/reloading
+[2023.10.12-13.16.18:307][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/reloading2F55C7204524EE34473039A78535A9B0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/reloading.uasset'
+[2023.10.12-13.16.18:346][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/rifle_aiming_idle
+[2023.10.12-13.16.18:346][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/rifle_aiming_idleBD14FBE341FF61F2C04B5F9F3DDA5BD3.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/rifle_aiming_idle.uasset'
+[2023.10.12-13.16.18:389][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/rifle_jump
+[2023.10.12-13.16.18:389][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/rifle_jumpE1A693204FAC2EA5892BDEA2CE7EA0B1.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/rifle_jump.uasset'
+[2023.10.12-13.16.18:432][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/rifle_run
+[2023.10.12-13.16.18:432][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/rifle_run255C8E7C49DBCE9D60AD949F14498FE9.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/rifle_run.uasset'
+[2023.10.12-13.16.18:474][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/run_backwards
+[2023.10.12-13.16.18:474][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_backwards1339AFB644A3BCA3D886D0BBCF6646C2.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/run_backwards.uasset'
+[2023.10.12-13.16.18:520][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/strafe
+[2023.10.12-13.16.18:520][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/strafe236213D44CC6701088A553B075D15CC5.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/strafe.uasset'
+[2023.10.12-13.16.18:560][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/strafe__2_
+[2023.10.12-13.16.18:560][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/strafe__2_6B0D2B984DA215504754E58EC8BC7AE0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/strafe__2_.uasset'
+[2023.10.12-13.16.18:598][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/strafe_left
+[2023.10.12-13.16.18:598][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/strafe_leftF2AFE97747DB4D28BE31FC812003BA49.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/strafe_left.uasset'
+[2023.10.12-13.16.18:637][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/strafe_right
+[2023.10.12-13.16.18:637][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/strafe_rightD439FB29429B978375FC8CB3040EBAA9.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/strafe_right.uasset'
+[2023.10.12-13.16.18:720][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/toss_grenade
+[2023.10.12-13.16.18:720][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/toss_grenadeD35853B446D982CDD31900A6F5D47BD6.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/toss_grenade.uasset'
+[2023.10.12-13.16.18:761][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/turn_left
+[2023.10.12-13.16.18:761][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/turn_leftB7559F8E401682D3519118AA5451A8B9.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/turn_left.uasset'
+[2023.10.12-13.16.18:804][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/turning_right_45_degrees
+[2023.10.12-13.16.18:805][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/turning_right_45_degreesB326DB064076FF210CD7169CC1F1258D.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/turning_right_45_degrees.uasset'
+[2023.10.12-13.16.18:848][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/walking
+[2023.10.12-13.16.18:848][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walking49411A2F44D30F4D90322DA6B1BADD68.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/walking.uasset'
+[2023.10.12-13.16.18:889][108]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_2/walking_backwards
+[2023.10.12-13.16.18:889][108]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walking_backwards28DC375F45FEEBD961EAD3BD31A7AD04.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_2/walking_backwards.uasset'
+[2023.10.12-13.16.19:095][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.12 sec (total: 13.1 sec)
+[2023.10.12-13.16.19:103][108]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/firing_rifle.firing_rifle
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/hit_reaction.hit_reaction
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/reloading.reloading
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/rifle_aiming_idle.rifle_aiming_idle
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/rifle_jump.rifle_jump
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/rifle_run.rifle_run
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/run_backwards.run_backwards
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/strafe.strafe
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/strafe__2_.strafe__2_
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/strafe_left.strafe_left
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/strafe_right.strafe_right
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/toss_grenade.toss_grenade
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/turn_left.turn_left
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/turning_right_45_degrees.turning_right_45_degrees
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/walking.walking
+[2023.10.12-13.16.19:103][108]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_2/walking_backwards.walking_backwards
+[2023.10.12-13.16.19:120][109]LogAutomationController: Ignoring very large delta of 2.71 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.10.12-13.16.20:040][124]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/charcter_bundle/anim_2/firing_rifle.firing_rifle
+[2023.10.12-13.16.20:043][124]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.20:043][124]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.20:124][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.10.12-13.16.20:763][124]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.20:763][124]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.20:978][124]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.20:978][124]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.21:010][124]LogViewport: Scene viewport resized to 1134x500, mode Windowed.
+[2023.10.12-13.16.21:034][124]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.10.12-13.16.22:465][139]LogViewport: Scene viewport resized to 160x160, mode Windowed.
+[2023.10.12-13.16.26:713][183]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.26:713][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.26:814][183]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.26:814][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.29:336][210]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.29:336][210]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.29:438][210]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.29:438][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.31:942][236]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.31:942][236]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.32:039][236]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.32:039][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.34:839][265]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.34:839][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.34:942][265]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.34:942][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.36:655][282]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.36:655][282]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.36:758][282]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.36:758][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.44:047][358]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.44:047][358]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.44:160][358]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.44:160][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.47:428][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.47:428][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.47:543][391]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.47:543][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.48:816][404]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.48:816][404]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.48:933][404]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.48:933][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.50:701][422]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.50:701][422]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.50:800][422]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.50:800][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.16.56:733][481]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.16.56:733][481]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.16.56:834][481]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.16.56:834][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.03:388][547]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.03:388][547]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.03:496][547]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.03:496][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.04:828][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.04:828][561]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.04:926][561]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.04:926][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.05:840][570]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.05:840][570]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.05:941][570]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.05:942][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.06:623][577]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.06:623][577]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.06:732][577]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.06:732][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.08:245][593]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.08:245][593]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.08:353][593]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.08:353][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.15:021][662]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.15:021][662]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.15:125][662]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.15:125][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.16:853][680]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.16:853][680]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.16:954][680]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.16:954][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.18:840][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.18:840][699]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.18:960][699]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.18:960][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.20:256][712]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.20:256][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.20:354][712]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.20:354][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.24:873][757]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.24:873][757]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.24:980][757]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.24:980][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.25:803][766]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.25:803][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.25:904][766]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.25:904][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.26:684][774]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.26:684][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.26:787][774]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.26:787][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.29:149][798]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.29:149][798]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.29:253][798]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.29:254][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.30:408][810]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.30:408][810]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.30:506][810]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.30:506][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.31:919][824]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.31:919][824]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.32:023][824]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.32:023][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.34:637][850]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.34:637][850]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.34:735][850]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.34:735][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.39:657][900]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.39:657][900]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.39:761][900]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.39:761][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.41:188][915]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.41:188][915]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.41:289][915]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.41:289][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.17.58:840][133]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.17.58:840][133]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.17.58:946][133]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.17.58:946][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.00:310][147]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.18.00:311][147]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.18.00:416][147]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.00:416][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.01:546][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.18.01:546][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.18.01:652][158]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.01:652][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.03:237][173]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.18.03:237][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.18.03:338][173]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.03:338][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.04:450][184]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.18.04:450][184]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.18.04:562][184]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.04:562][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.07:098][209]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.18.07:098][209]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.18.07:205][209]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.07:205][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.10:579][242]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.18.10:579][242]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.18.10:685][242]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.10:685][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.11:920][254]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-13.18.11:921][254]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-13.18.12:025][254]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.12:025][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.17:221][314]LogSlate: Window 'toss_grenade' being destroyed
+[2023.10.12-13.18.17:234][314]LogSlate: Window 'toss_grenade' being destroyed
+[2023.10.12-13.18.17:271][314]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.17:271][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.17:284][314]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.17:285][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.17:343][314]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-13.18.17:343][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-13.18.30:102][629]LogContentBrowser: Attempting asset rename: anim_2 -> anim_basic
+[2023.10.12-13.18.30:194][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-13.18.30:362][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/rifle_jump
+[2023.10.12-13.18.30:362][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/rifle_jump6329B90C4E93478DFBFDDA86DE8B14F9.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/rifle_jump.uasset'
+[2023.10.12-13.18.30:380][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/rifle_aiming_idle
+[2023.10.12-13.18.30:380][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/rifle_aiming_idle5EDA11E44E3274F8DD89FE992028B3D1.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/rifle_aiming_idle.uasset'
+[2023.10.12-13.18.30:411][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/reloading
+[2023.10.12-13.18.30:411][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/reloading857575DA4C8A789F2FCB5EB046B8C551.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/reloading.uasset'
+[2023.10.12-13.18.30:434][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/firing_rifle
+[2023.10.12-13.18.30:434][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/firing_rifleC06902CE46752449C6C212A6F2FCA96E.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/firing_rifle.uasset'
+[2023.10.12-13.18.30:457][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/hit_reaction
+[2023.10.12-13.18.30:457][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/hit_reaction65A8DE654CCFD855E60642A857401674.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/hit_reaction.uasset'
+[2023.10.12-13.18.30:479][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/walking
+[2023.10.12-13.18.30:479][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walking44EDCAF5450643EF2DC9138E81309965.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/walking.uasset'
+[2023.10.12-13.18.30:500][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/walking_backwards
+[2023.10.12-13.18.30:500][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walking_backwards66BC51024E537999029919AA1B31FDF0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/walking_backwards.uasset'
+[2023.10.12-13.18.30:520][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/turning_right_45_degrees
+[2023.10.12-13.18.30:520][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/turning_right_45_degreesE893A84D46B3B177C9992590B2139878.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/turning_right_45_degrees.uasset'
+[2023.10.12-13.18.30:545][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/turn_left
+[2023.10.12-13.18.30:545][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/turn_left535866B642B5E02CCC135B8331680520.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/turn_left.uasset'
+[2023.10.12-13.18.30:588][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/toss_grenade
+[2023.10.12-13.18.30:588][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/toss_grenadeC2A03827458882C746608B9EEBB3DE1A.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/toss_grenade.uasset'
+[2023.10.12-13.18.30:605][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/strafe
+[2023.10.12-13.18.30:605][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/strafe94552609427808710708838D0D88FF70.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/strafe.uasset'
+[2023.10.12-13.18.30:624][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/strafe_right
+[2023.10.12-13.18.30:624][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/strafe_rightDE978DBE409C519572A09B90396D5F81.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/strafe_right.uasset'
+[2023.10.12-13.18.30:644][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/strafe_left
+[2023.10.12-13.18.30:644][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/strafe_left228D6BD3402A014477FC84B831D1C004.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/strafe_left.uasset'
+[2023.10.12-13.18.30:664][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/strafe__2_
+[2023.10.12-13.18.30:664][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/strafe__2_B29BD82A4390D62DA38F25A6F8AB5AD5.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/strafe__2_.uasset'
+[2023.10.12-13.18.30:682][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/run_backwards
+[2023.10.12-13.18.30:682][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_backwards4673F43743C1B3746C8CC3AC200A0AF1.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/run_backwards.uasset'
+[2023.10.12-13.18.30:704][629]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_basic/rifle_run
+[2023.10.12-13.18.30:704][629]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/rifle_runC370420245999010FA013CAB8AD85609.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_basic/rifle_run.uasset'
+[2023.10.12-13.18.30:751][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 555 ms (total: 13.7 sec)
+[2023.10.12-13.18.30:827][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.10.12-13.18.30:838][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.10.12-13.18.30:844][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.10.12-13.18.30:883][629]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/rifle_jump.rifle_jump
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/rifle_aiming_idle.rifle_aiming_idle
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/reloading.reloading
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/firing_rifle.firing_rifle
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/hit_reaction.hit_reaction
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/walking.walking
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/walking_backwards.walking_backwards
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/turning_right_45_degrees.turning_right_45_degrees
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/turn_left.turn_left
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/toss_grenade.toss_grenade
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/strafe.strafe
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/strafe_right.strafe_right
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/strafe_left.strafe_left
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/strafe__2_.strafe__2_
+[2023.10.12-13.18.30:883][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/run_backwards.run_backwards
+[2023.10.12-13.18.30:884][629]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_basic/rifle_run.rifle_run
+[2023.10.12-13.18.41:373][871]LogContentBrowser: Attempting asset rename: anim_1 -> anim_pro
+[2023.10.12-13.18.41:501][871]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-13.18.41:664][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_forward_right
+[2023.10.12-13.18.41:664][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_forward_rightBED16DD34B2D1BCF01C8BF9B2ABC2F32.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_forward_right.uasset'
+[2023.10.12-13.18.41:682][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_forward_left
+[2023.10.12-13.18.41:682][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_forward_leftF1642B204E91A79870659B9DE84AB219.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_forward_left.uasset'
+[2023.10.12-13.18.41:698][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_crouching_right
+[2023.10.12-13.18.41:698][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_rightE83171E64DA519207A95B2841843F85E.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_crouching_right.uasset'
+[2023.10.12-13.18.41:719][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_crouching_left
+[2023.10.12-13.18.41:721][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_leftE1ACB09741FB721A5B217583CBDC4E0B.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_crouching_left.uasset'
+[2023.10.12-13.18.41:747][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/death_from_front_headshot
+[2023.10.12-13.18.41:747][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_front_headshot95CC078049C02A9BBD2B7795E041BE08.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/death_from_front_headshot.uasset'
+[2023.10.12-13.18.41:775][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_crouching_forward
+[2023.10.12-13.18.41:775][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_forward2BE96F4645C43047606FF397768B359D.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_crouching_forward.uasset'
+[2023.10.12-13.18.41:797][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_crouching_forward_right
+[2023.10.12-13.18.41:797][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_forward_rightE41C45314DCD0D7A94AF89963EE13209.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_crouching_forward_right.uasset'
+[2023.10.12-13.18.41:824][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_crouching_forward_left
+[2023.10.12-13.18.41:824][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_forward_left541C0226416855E6224B4F97712F1063.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_crouching_forward_left.uasset'
+[2023.10.12-13.18.41:895][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/death_from_back_headshot
+[2023.10.12-13.18.41:895][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_back_headshot3326B63D43D559D471D5D28D94D112B0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/death_from_back_headshot.uasset'
+[2023.10.12-13.18.41:913][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_crouching_backward
+[2023.10.12-13.18.41:913][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_backward76496B8D47ECB4FFC292C2A6D03313E4.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_crouching_backward.uasset'
+[2023.10.12-13.18.41:932][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_crouching_backward_right
+[2023.10.12-13.18.41:932][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_backward_right32C34C4D459DE7FCB8EA00B0841302A7.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_crouching_backward_right.uasset'
+[2023.10.12-13.18.41:949][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_crouching_backward_left
+[2023.10.12-13.18.41:949][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_crouching_backward_left61A273B6458FC814FDC0C9AB154E9265.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_crouching_backward_left.uasset'
+[2023.10.12-13.18.41:965][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_backward
+[2023.10.12-13.18.41:966][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_backwardDE12C9F44B5B404D69CA17AA23B860AA.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_backward.uasset'
+[2023.10.12-13.18.41:983][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_backward_right
+[2023.10.12-13.18.41:983][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_backward_rightF52EB4B34F977CD83C31219B78F55A6A.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_backward_right.uasset'
+[2023.10.12-13.18.42:005][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/death_crouching_headshot_front
+[2023.10.12-13.18.42:005][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_crouching_headshot_front260B0FA64808994444ECCAA4EAB14882.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/death_crouching_headshot_front.uasset'
+[2023.10.12-13.18.42:023][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_backward_left
+[2023.10.12-13.18.42:023][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_backward_leftFC457D7F48F72FA78C697899487C247C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_backward_left.uasset'
+[2023.10.12-13.18.42:043][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/turn_90_right
+[2023.10.12-13.18.42:044][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/turn_90_right8EF503644F5D26A99BA3B49FC986C29A.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/turn_90_right.uasset'
+[2023.10.12-13.18.42:060][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/turn_90_left
+[2023.10.12-13.18.42:061][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/turn_90_leftD9CFF05047FC6AB7EBEA1187A20F9605.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/turn_90_left.uasset'
+[2023.10.12-13.18.42:079][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/sprint_right
+[2023.10.12-13.18.42:079][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_rightA11A49144C40F133254F7998C0E06EEA.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/sprint_right.uasset'
+[2023.10.12-13.18.42:103][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/sprint_left
+[2023.10.12-13.18.42:103][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_left3699738B4FDB22D73AB9B6A9337D0697.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/sprint_left.uasset'
+[2023.10.12-13.18.42:124][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/sprint_forward
+[2023.10.12-13.18.42:124][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_forwardE65ED1B443EB8031280B32B66E4451D3.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/sprint_forward.uasset'
+[2023.10.12-13.18.42:146][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/sprint_forward_right
+[2023.10.12-13.18.42:146][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_forward_right2F4978354D454968791B46BE22BAB8E3.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/sprint_forward_right.uasset'
+[2023.10.12-13.18.42:165][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/sprint_forward_left
+[2023.10.12-13.18.42:165][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_forward_leftF021B3FD40963FD1991B74B088CC0F65.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/sprint_forward_left.uasset'
+[2023.10.12-13.18.42:183][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/sprint_backward
+[2023.10.12-13.18.42:183][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_backward382D60D749414278457CB8AC2F6A8215.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/sprint_backward.uasset'
+[2023.10.12-13.18.42:204][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/crouching_turn_90_right
+[2023.10.12-13.18.42:204][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/crouching_turn_90_right9B93F5B84B20205CAAC1EA8094F32192.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/crouching_turn_90_right.uasset'
+[2023.10.12-13.18.42:225][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/sprint_backward_right
+[2023.10.12-13.18.42:225][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_backward_rightA42E070F4DE7D97D2B6A14A45792D1E7.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/sprint_backward_right.uasset'
+[2023.10.12-13.18.42:244][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/sprint_backward_left
+[2023.10.12-13.18.42:244][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/sprint_backward_leftBE22388F465C81F4CCF51CBE505FD4DB.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/sprint_backward_left.uasset'
+[2023.10.12-13.18.42:267][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/run_right
+[2023.10.12-13.18.42:267][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_right1CCB37A844B0E33BD71C9B8B5A4FE4B9.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/run_right.uasset'
+[2023.10.12-13.18.42:287][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/run_left
+[2023.10.12-13.18.42:287][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_left644A01B34FAA83D6E2B769A59A4CC724.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/run_left.uasset'
+[2023.10.12-13.18.42:308][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/run_forward
+[2023.10.12-13.18.42:308][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_forward8CDB135A4E85081787C7EC99224697A7.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/run_forward.uasset'
+[2023.10.12-13.18.42:329][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/run_forward_right
+[2023.10.12-13.18.42:329][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_forward_right3B41747A4DBD42EEDE6E13B3BBE01CFB.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/run_forward_right.uasset'
+[2023.10.12-13.18.42:349][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/run_forward_left
+[2023.10.12-13.18.42:349][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_forward_leftBB5D6D0F4207CAADBD31499F799B5FCA.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/run_forward_left.uasset'
+[2023.10.12-13.18.42:368][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/run_backward
+[2023.10.12-13.18.42:369][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_backwardE993E59B4ACE7EB8E024008E2DAA8E76.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/run_backward.uasset'
+[2023.10.12-13.18.42:387][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/run_backward_right
+[2023.10.12-13.18.42:387][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_backward_right21B0515442D471FCA6CC4EA2BA669D74.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/run_backward_right.uasset'
+[2023.10.12-13.18.42:409][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/crouching_turn_90_left
+[2023.10.12-13.18.42:409][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/crouching_turn_90_leftC56566BD42E89CFB7DB2B8BC999BBF98.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/crouching_turn_90_left.uasset'
+[2023.10.12-13.18.42:430][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/run_backward_left
+[2023.10.12-13.18.42:430][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/run_backward_left01A91127473ABC7782816282C436025B.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/run_backward_left.uasset'
+[2023.10.12-13.18.42:451][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/jump_up
+[2023.10.12-13.18.42:451][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/jump_up5C561D8D41D4D6EB60E8E4B99A8AC20A.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/jump_up.uasset'
+[2023.10.12-13.18.42:473][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/jump_loop
+[2023.10.12-13.18.42:473][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/jump_loopF66CADFA4D7982B0BC3965B1B11ABFA6.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/jump_loop.uasset'
+[2023.10.12-13.18.42:490][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/jump_down
+[2023.10.12-13.18.42:490][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/jump_downE936EC8D40D167A576D327A69F319B75.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/jump_down.uasset'
+[2023.10.12-13.18.42:512][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/idle
+[2023.10.12-13.18.42:512][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/idleFC8B7ABB440A0204501128B788B186C2.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/idle.uasset'
+[2023.10.12-13.18.42:534][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/idle_crouching
+[2023.10.12-13.18.42:534][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/idle_crouchingEAE80ACB48892AB9BB295DA8FE8A7DF0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/idle_crouching.uasset'
+[2023.10.12-13.18.42:553][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/idle_crouching_aiming
+[2023.10.12-13.18.42:553][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/idle_crouching_aimingC202B30042298B8A03C3E083D0FA24D6.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/idle_crouching_aiming.uasset'
+[2023.10.12-13.18.42:573][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/idle_aiming
+[2023.10.12-13.18.42:573][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/idle_aiming78ECC49F4C98C4346CEA83AFCCE5001F.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/idle_aiming.uasset'
+[2023.10.12-13.18.42:592][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/death_from_the_front
+[2023.10.12-13.18.42:592][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_the_front8F87088745FD36E285F724928FE3AE7D.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/death_from_the_front.uasset'
+[2023.10.12-13.18.42:618][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/death_from_the_back
+[2023.10.12-13.18.42:619][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_the_back3987C3F44CF7CDA38A7833A2F254C3FA.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/death_from_the_back.uasset'
+[2023.10.12-13.18.42:641][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/death_from_right
+[2023.10.12-13.18.42:641][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/death_from_right201E51B14AD60FE55C15518E8B2DC762.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/death_from_right.uasset'
+[2023.10.12-13.18.42:663][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_right
+[2023.10.12-13.18.42:663][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_right3996673D4443FAC8E98DB1AF677D83C2.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_right.uasset'
+[2023.10.12-13.18.42:686][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_left
+[2023.10.12-13.18.42:686][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_left6B663CFF4168D21BF0D75BA7819979D6.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_left.uasset'
+[2023.10.12-13.18.42:707][871]LogSavePackage: Moving output files for package: /Game/charcter_bundle/anim_pro/walk_forward
+[2023.10.12-13.18.42:707][871]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/walk_forward54281E1644FAC769F5FEA88EB036FA90.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/charcter_bundle/anim_pro/walk_forward.uasset'
+[2023.10.12-13.18.42:754][871]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.25 sec (total: 14.9 sec)
+[2023.10.12-13.18.42:912][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.10.12-13.18.42:923][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.10.12-13.18.42:930][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.10.12-13.18.42:994][871]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_forward_right.walk_forward_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_forward_left.walk_forward_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_crouching_right.walk_crouching_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_crouching_left.walk_crouching_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/death_from_front_headshot.death_from_front_headshot
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_crouching_forward.walk_crouching_forward
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_crouching_forward_right.walk_crouching_forward_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_crouching_forward_left.walk_crouching_forward_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/death_from_back_headshot.death_from_back_headshot
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_crouching_backward.walk_crouching_backward
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_crouching_backward_right.walk_crouching_backward_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_crouching_backward_left.walk_crouching_backward_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_backward.walk_backward
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_backward_right.walk_backward_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/death_crouching_headshot_front.death_crouching_headshot_front
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_backward_left.walk_backward_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/turn_90_right.turn_90_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/turn_90_left.turn_90_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/sprint_right.sprint_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/sprint_left.sprint_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/sprint_forward.sprint_forward
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/sprint_forward_right.sprint_forward_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/sprint_forward_left.sprint_forward_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/sprint_backward.sprint_backward
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/crouching_turn_90_right.crouching_turn_90_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/sprint_backward_right.sprint_backward_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/sprint_backward_left.sprint_backward_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/run_right.run_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/run_left.run_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/run_forward.run_forward
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/run_forward_right.run_forward_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/run_forward_left.run_forward_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/run_backward.run_backward
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/run_backward_right.run_backward_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/crouching_turn_90_left.crouching_turn_90_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/run_backward_left.run_backward_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/jump_up.jump_up
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/jump_loop.jump_loop
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/jump_down.jump_down
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/idle.idle
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/idle_crouching.idle_crouching
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/idle_crouching_aiming.idle_crouching_aiming
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/idle_aiming.idle_aiming
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/death_from_the_front.death_from_the_front
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/death_from_the_back.death_from_the_back
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/death_from_right.death_from_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_right.walk_right
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_left.walk_left
+[2023.10.12-13.18.42:995][871]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/charcter_bundle/anim_pro/walk_forward.walk_forward
+[2023.10.12-13.18.43:539][889]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-13.18.43:765][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.12-13.18.43:781][889]LogSavePackage: Moving output files for package: /Game/level/level_zero
+[2023.10.12-13.18.43:781][889]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/level_zeroE966192A4794C065A831778DABF3D4FF.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/level/level_zero.umap'
+[2023.10.12-13.18.43:793][889]LogFileHelpers: Saving map 'level_zero' took 0.067
+[2023.10.12-13.18.43:843][889]LogFileHelpers: InternalPromptForCheckoutAndSave took 303 ms (total: 15.2 sec)
+[2023.10.12-13.18.43:846][889]AssetCheck: New page: Asset Save: level_zero
+[2023.10.12-13.18.43:846][889]LogContentValidation: Display: Validating /Script/Engine.World /Game/level/level_zero.level_zero
