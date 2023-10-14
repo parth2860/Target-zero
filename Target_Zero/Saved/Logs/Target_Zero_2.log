@@ -2189,3 +2189,729 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2023.10.13-14.46.10:735][240]LogFileHelpers: InternalPromptForCheckoutAndSave took 496 ms (total: 5.59 sec)
 [2023.10.13-14.46.10:738][240]AssetCheck: New page: Asset Save: bpi_interface
 [2023.10.13-14.46.10:739][240]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/interfaces/bpi_interface.bpi_interface
+[2023.10.13-14.58.28:457][352]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/interfaces/bpi_interface.bpi_interface
+[2023.10.13-14.58.28:457][352]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-14.58.28:457][352]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-14.58.28:473][352]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2023.10.13-14.58.30:461][352]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.10.13-14.58.30:665][352]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.203764s
+[2023.10.13-14.58.30:969][352]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 2.512061s (0.512061s overbudget)
+[2023.10.13-14.58.31:016][352]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.10.13-14.58.59:308][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2023.10.13-14.58.59:310][528]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/game_assets/level/level_zero' took 0.038
+[2023.10.13-14.58.59:311][528]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/game_assets/interfaces/bpi_interface] ([2] browsable assets)...
+[2023.10.13-14.58.59:311][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/game_assets/interfaces/bpi_interface]
+[2023.10.13-14.58.59:314][528]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/game_assets/interfaces/bpi_interface_Auto2
+[2023.10.13-14.58.59:314][528]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bpi_interface_Auto24B218F594DB2B3002D73239D39C1B0EB.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/Autosaves/Game/game_assets/interfaces/bpi_interface_Auto2.uasset'
+[2023.10.13-14.58.59:315][528]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.10.13-14.59.50:998][808]LogSlate: Took 0.007005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.10.13-15.01.20:834][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.01.20:981][374]LogSavePackage: Moving output files for package: /Game/game_assets/interfaces/bpi_interface
+[2023.10.13-15.01.20:982][374]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bpi_interface7A27CC9D447CB9F1FEEE5B9E2396B2B2.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/interfaces/bpi_interface.uasset'
+[2023.10.13-15.01.21:016][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 5.77 sec)
+[2023.10.13-15.01.21:021][374]AssetCheck: New page: Asset Save: bpi_interface
+[2023.10.13-15.01.21:021][374]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/interfaces/bpi_interface.bpi_interface
+[2023.10.13-15.01.21:544][391]BlueprintLog: New page: Compile bpi_interface
+[2023.10.13-15.01.21:588][391]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2023.10.13-15.02.20:599][560]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.13-15.02.20:612][560]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.10.13-15.02.20:633][560]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.10.13-15.02.20:689][562]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.10.13-15.02.29:904][ 85]LogContentBrowser: Attempting asset rename: NewBlueprint -> bp_wepon_master
+[2023.10.13-15.02.29:918][ 85]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.10.13-15.02.31:123][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.02.31:252][151]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-15.02.31:253][151]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_master4B35061B445B4EA8543BD2A1CB5024FD.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-15.02.31:275][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 5.92 sec)
+[2023.10.13-15.02.31:279][151]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-15.02.31:279][151]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-15.02.46:249][371]LogSlate: Window 'bpi_interface' being destroyed
+[2023.10.13-15.02.46:266][371]LogSlate: Window 'bpi_interface' being destroyed
+[2023.10.13-15.02.46:275][371]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-15.02.46:275][371]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-15.02.51:229][549]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2023.10.13-15.02.51:247][549]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2023.10.13-15.02.51:278][550]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2023.10.13-15.03.05:102][331]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> enum_wepontype
+[2023.10.13-15.03.05:105][331]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2023.10.13-15.03.06:518][397]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepontype.enum_wepontype
+[2023.10.13-15.03.38:438][508]LogContentBrowser: Attempting asset rename: enum_wepontype1 -> enum_wepon_name
+[2023.10.13-15.03.38:488][508]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.03.38:615][508]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/enum_wepon_name
+[2023.10.13-15.03.38:615][508]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/enum_wepon_nameEBC33F774771174617D4D18ABAC08161.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/enum_wepon_name.uasset'
+[2023.10.13-15.03.38:642][508]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 6.08 sec)
+[2023.10.13-15.03.38:705][508]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2023.10.13-15.03.38:747][508]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2023.10.13-15.03.38:781][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.10.13-15.03.38:787][508]AssetCheck: New page: Asset Save: enum_wepon_name
+[2023.10.13-15.03.38:787][508]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepon_name.enum_wepon_name
+[2023.10.13-15.03.46:190][890]LogContentBrowser: Attempting asset rename: enum_wepontype -> enum_wepon_type
+[2023.10.13-15.03.46:236][890]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/enum_wepon_type.enum_wepon_type' ref from Metadata '/Game/game_assets/propes_pick/wepons/enum_wepontype.PackageMetaData'
+[2023.10.13-15.03.46:247][890]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.03.46:386][890]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/enum_wepon_type
+[2023.10.13-15.03.46:386][890]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/enum_wepon_type35FBF3A944A327754C15E8A13F0A8EB1.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/enum_wepon_type.uasset'
+[2023.10.13-15.03.46:415][890]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 6.25 sec)
+[2023.10.13-15.03.46:468][890]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2023.10.13-15.03.46:513][890]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2023.10.13-15.03.46:559][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.10.13-15.03.46:566][890]AssetCheck: New page: Asset Save: enum_wepon_type
+[2023.10.13-15.03.46:566][890]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepon_type.enum_wepon_type
+[2023.10.13-15.03.47:160][922]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.03.47:282][922]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/enum_wepon_type
+[2023.10.13-15.03.47:283][922]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/enum_wepon_typeCBFE9D084DF7C3E7883D53A92A5AAC7B.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/enum_wepon_type.uasset'
+[2023.10.13-15.03.47:309][922]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 6.39 sec)
+[2023.10.13-15.03.47:311][922]AssetCheck: New page: Asset Save: enum_wepon_type
+[2023.10.13-15.03.47:311][922]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepon_type.enum_wepon_type
+[2023.10.13-15.04.13:983][423]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2023.10.13-15.04.39:080][445]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.04.39:279][445]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/enum_wepon_type
+[2023.10.13-15.04.39:280][445]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/enum_wepon_type506BA8DF48BDA81EAB41D8B782EFA4A6.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/enum_wepon_type.uasset'
+[2023.10.13-15.04.39:306][445]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 6.62 sec)
+[2023.10.13-15.04.39:308][445]AssetCheck: New page: Asset Save: enum_wepon_type
+[2023.10.13-15.04.39:308][445]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepon_type.enum_wepon_type
+[2023.10.13-15.04.49:982][689]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.04.50:118][689]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/enum_wepon_type
+[2023.10.13-15.04.50:119][689]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/enum_wepon_type91AF17D847037E69ED105FADE066B1DB.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/enum_wepon_type.uasset'
+[2023.10.13-15.04.50:139][689]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 6.78 sec)
+[2023.10.13-15.04.50:142][689]AssetCheck: New page: Asset Save: enum_wepon_type
+[2023.10.13-15.04.50:142][689]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepon_type.enum_wepon_type
+[2023.10.13-15.05.27:687][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.05.27:821][969]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/enum_wepon_type
+[2023.10.13-15.05.27:822][969]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/enum_wepon_type1A2B0C894A46219992094D9D2F46AB3C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/enum_wepon_type.uasset'
+[2023.10.13-15.05.27:843][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 6.93 sec)
+[2023.10.13-15.05.27:847][969]AssetCheck: New page: Asset Save: enum_wepon_type
+[2023.10.13-15.05.27:847][969]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepon_type.enum_wepon_type
+[2023.10.13-15.05.29:678][ 35]LogSlate: Window 'enum_wepon_type' being destroyed
+[2023.10.13-15.05.30:842][ 88]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepon_name.enum_wepon_name
+[2023.10.13-15.06.03:822][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.06.04:028][375]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/enum_wepon_name
+[2023.10.13-15.06.04:031][375]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/enum_wepon_name6ABF161D474E0CF29271D5AD63BABE2B.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/enum_wepon_name.uasset'
+[2023.10.13-15.06.04:067][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 7.18 sec)
+[2023.10.13-15.06.04:071][375]AssetCheck: New page: Asset Save: enum_wepon_name
+[2023.10.13-15.06.04:071][375]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/game_assets/propes_pick/wepons/enum_wepon_name.enum_wepon_name
+[2023.10.13-15.06.05:792][432]LogSlate: Window 'enum_wepon_name' being destroyed
+[2023.10.13-15.06.05:809][432]LogSlate: Window 'enum_wepon_name' being destroyed
+[2023.10.13-15.06.42:997][863]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.13-15.06.43:026][863]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.10.13-15.06.43:042][863]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.10.13-15.06.43:113][865]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.10.13-15.06.53:894][447]LogContentBrowser: Attempting asset rename: NewBlueprint -> bp_pickup_master
+[2023.10.13-15.06.53:904][447]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.10.13-15.06.55:638][532]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.10.13-15.06.56:685][532]LogSlate: Window 'Save Content' being destroyed
+[2023.10.13-15.06.56:710][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.06.56:884][532]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pickup_master
+[2023.10.13-15.06.56:884][532]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_master3C2063B345B7C1F6232BC4B0685A6E82.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pickup_master.uasset'
+[2023.10.13-15.06.56:909][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 7.38 sec)
+[2023.10.13-15.06.56:913][532]AssetCheck: New page: Asset Save: bp_pickup_master
+[2023.10.13-15.06.56:913][532]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-15.07.28:666][698]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-15.07.28:666][698]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-15.07.28:666][698]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-15.07.29:246][698]LogViewport: Scene viewport resized to 1065x805, mode Windowed.
+[2023.10.13-15.07.39:436][970]BlueprintLog: New page: Compile bp_pickup_master
+[2023.10.13-15.07.39:501][970]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.10.13-15.08.07:208][385]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.08.07:323][385]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SSubobjectEditorDragDropTree [SSubobjectEditor.cpp(2093)].
+[2023.10.13-15.08.07:454][385]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pickup_master
+[2023.10.13-15.08.07:456][385]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_masterB24FF41E45FBB99B1868858105D72900.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pickup_master.uasset'
+[2023.10.13-15.08.07:494][385]LogFileHelpers: InternalPromptForCheckoutAndSave took 286 ms (total: 7.66 sec)
+[2023.10.13-15.08.07:500][385]AssetCheck: New page: Asset Save: bp_pickup_master
+[2023.10.13-15.08.07:500][385]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-15.08.08:445][401]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.08.08:679][401]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pickup_master
+[2023.10.13-15.08.08:680][401]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_master931D4D4947A272C4E1AD60A7F47BCBDE.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pickup_master.uasset'
+[2023.10.13-15.08.08:728][401]LogFileHelpers: InternalPromptForCheckoutAndSave took 282 ms (total: 7.95 sec)
+[2023.10.13-15.08.08:732][401]AssetCheck: New page: Asset Save: bp_pickup_master
+[2023.10.13-15.08.08:733][401]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-15.08.55:886][242]BlueprintLog: New page: Compile bp_pickup_master
+[2023.10.13-15.08.55:947][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.10.13-15.10.57:061][244]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-15.10.58:138][259]LogMeshUtilities: Finished distance field build in 1.1s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 426 triangles, ArcadeEditorSphere
+[2023.10.13-15.11.07:051][477]BlueprintLog: New page: Compile bp_pickup_master
+[2023.10.13-15.11.07:125][477]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2023.10.13-15.11.32:005][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2023.10.13-15.11.32:007][551]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/game_assets/level/level_zero' took 0.038
+[2023.10.13-15.11.32:008][551]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/game_assets/propes_pick/pickup/bp_pickup_master] ([2] browsable assets)...
+[2023.10.13-15.11.32:054][551]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master]
+[2023.10.13-15.11.32:054][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/game_assets/propes_pick/pickup/bp_pickup_master]
+[2023.10.13-15.11.32:061][551]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/game_assets/propes_pick/pickup/bp_pickup_master_Auto3
+[2023.10.13-15.11.32:061][551]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_master_Auto3932669BA46D5629C11F2E3B09B0F6CC0.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/Autosaves/Game/game_assets/propes_pick/pickup/bp_pickup_master_Auto3.uasset'
+[2023.10.13-15.11.32:062][551]LogFileHelpers: Auto-saving content packages took 0.054
+[2023.10.13-15.12.06:838][117]BlueprintLog: New page: Compile bp_pickup_master
+[2023.10.13-15.12.06:890][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2023.10.13-15.12.07:717][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.12.07:854][137]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pickup_master
+[2023.10.13-15.12.07:855][137]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_master29450FE540C6DF6E2CA9B0AA36F41F89.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pickup_master.uasset'
+[2023.10.13-15.12.07:876][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 8.11 sec)
+[2023.10.13-15.12.07:877][137]AssetCheck: New page: Asset Save: bp_pickup_master
+[2023.10.13-15.12.07:877][137]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-15.12.27:854][376]BlueprintLog: New page: Compile bp_pickup_master
+[2023.10.13-15.12.27:931][376]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2023.10.13-15.12.28:598][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.12.28:764][387]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pickup_master
+[2023.10.13-15.12.28:764][387]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_master630B021B4B9DE002300942890175FF06.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pickup_master.uasset'
+[2023.10.13-15.12.28:776][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 8.28 sec)
+[2023.10.13-15.12.28:778][387]AssetCheck: New page: Asset Save: bp_pickup_master
+[2023.10.13-15.12.28:778][387]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-15.12.48:791][680]LogContentBrowser: Deferred new asset file creation: bp_pickup_master_Child
+[2023.10.13-15.12.48:815][680]LogContentBrowser: Creating deferred item: bp_pickup_master_Child
+[2023.10.13-15.12.48:836][681]LogContentBrowser: Renaming the item being created (Deferred Item: bp_pickup_master_Child).
+[2023.10.13-15.12.58:863][218]LogContentBrowser: Attempting asset rename: bp_pickup_master_Child -> bp_wepon_pickup_master_Child
+[2023.10.13-15.12.58:871][218]LogContentBrowser: End creating deferred item bp_pickup_master_Child
+[2023.10.13-15.12.58:872][218]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-15.13.00:695][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.13.00:831][298]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child
+[2023.10.13-15.13.00:831][298]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_pickup_master_Child19CD68164693DC160063C98F54F43D95.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.uasset'
+[2023.10.13-15.13.00:855][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 8.44 sec)
+[2023.10.13-15.13.00:858][298]AssetCheck: New page: Asset Save: bp_wepon_pickup_master_Child
+[2023.10.13-15.13.00:858][298]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.bp_wepon_pickup_master_Child
+[2023.10.13-15.13.29:245][540]LogSlate: Window 'bp_pickup_master' being destroyed
+[2023.10.13-15.13.29:262][540]LogSlate: Window 'bp_pickup_master' being destroyed
+[2023.10.13-15.13.29:275][540]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-15.13.29:275][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-15.13.45:145][204]LogContentBrowser: Attempting asset rename: bp_wepon_pickup_master_Child -> bp_wepon_pickup_Child
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.SKEL_bp_wepon_pickup_Child_C:UserConstructionScript' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.SKEL_bp_wepon_pickup_Child_C' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child_C' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child:EventGraph.K2Node_Event_0' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child:EventGraph.K2Node_Event_1' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child:EventGraph.K2Node_Event_2' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:193][204]LogMetaData: Removing '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_master_Child.PackageMetaData'
+[2023.10.13-15.13.45:194][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.13.45:329][204]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child
+[2023.10.13-15.13.45:329][204]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_pickup_Child1EA603D949FD1C349692F392F1C66BBE.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.uasset'
+[2023.10.13-15.13.45:354][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 8.60 sec)
+[2023.10.13-15.13.45:408][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2023.10.13-15.13.45:450][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2023.10.13-15.13.45:487][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.10.13-15.13.45:491][204]AssetCheck: New page: Asset Save: bp_wepon_pickup_Child
+[2023.10.13-15.13.45:491][204]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child
+[2023.10.13-15.13.45:492][204]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-15.13.47:820][285]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child
+[2023.10.13-15.13.47:821][285]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-15.13.47:821][285]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-15.13.48:253][285]LogViewport: Scene viewport resized to 1065x805, mode Windowed.
+[2023.10.13-15.15.05:971][885]LogViewport: Scene viewport resized to 1061x805, mode Windowed.
+[2023.10.13-15.15.06:033][886]LogViewport: Scene viewport resized to 1037x805, mode Windowed.
+[2023.10.13-15.15.06:074][887]LogViewport: Scene viewport resized to 1012x805, mode Windowed.
+[2023.10.13-15.15.06:146][888]LogViewport: Scene viewport resized to 972x805, mode Windowed.
+[2023.10.13-15.15.06:262][889]LogViewport: Scene viewport resized to 954x805, mode Windowed.
+[2023.10.13-15.15.06:302][890]LogViewport: Scene viewport resized to 952x805, mode Windowed.
+[2023.10.13-15.15.06:703][902]LogViewport: Scene viewport resized to 957x805, mode Windowed.
+[2023.10.13-15.15.06:772][903]LogViewport: Scene viewport resized to 972x805, mode Windowed.
+[2023.10.13-15.15.06:811][904]LogViewport: Scene viewport resized to 984x805, mode Windowed.
+[2023.10.13-15.15.06:859][905]LogViewport: Scene viewport resized to 988x805, mode Windowed.
+[2023.10.13-15.15.06:906][906]LogViewport: Scene viewport resized to 994x805, mode Windowed.
+[2023.10.13-15.15.06:949][907]LogViewport: Scene viewport resized to 997x805, mode Windowed.
+[2023.10.13-15.15.06:997][908]LogViewport: Scene viewport resized to 999x805, mode Windowed.
+[2023.10.13-15.15.07:041][909]LogViewport: Scene viewport resized to 1002x805, mode Windowed.
+[2023.10.13-15.15.07:172][913]LogViewport: Scene viewport resized to 1004x805, mode Windowed.
+[2023.10.13-15.15.23:774][ 56]BlueprintLog: New page: Compile bp_wepon_pickup_Child
+[2023.10.13-15.15.23:850][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2023.10.13-15.15.24:369][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.15.24:558][ 67]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child
+[2023.10.13-15.15.24:559][ 67]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_pickup_Child64013E2E428F2C3C59F335A630611918.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.uasset'
+[2023.10.13-15.15.24:584][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave took 214 ms (total: 8.82 sec)
+[2023.10.13-15.15.24:589][ 67]AssetCheck: New page: Asset Save: bp_wepon_pickup_Child
+[2023.10.13-15.15.24:589][ 67]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child
+[2023.10.13-15.15.30:210][261]LogContentBrowser: Deferred new asset file creation: bp_wepon_pickup_Child_Child
+[2023.10.13-15.15.30:235][261]LogContentBrowser: Creating deferred item: bp_wepon_pickup_Child_Child
+[2023.10.13-15.15.30:252][262]LogContentBrowser: Renaming the item being created (Deferred Item: bp_wepon_pickup_Child_Child).
+[2023.10.13-15.15.49:949][317]LogContentBrowser: Attempting asset rename: bp_wepon_pickup_Child_Child -> bp_pistol_pickup_Child_
+[2023.10.13-15.15.49:958][317]LogContentBrowser: End creating deferred item bp_wepon_pickup_Child_Child
+[2023.10.13-15.15.49:959][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-15.15.51:948][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.15.52:146][419]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2023.10.13-15.15.52:159][419]LogSavePackage: Moving output files for package: /Game/game_assets/level/level_zero
+[2023.10.13-15.15.52:159][419]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/level_zero9541849B4A7038B8038758A91EE89477.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/level/level_zero.umap'
+[2023.10.13-15.15.52:175][419]LogFileHelpers: Saving map 'level_zero' took 0.112
+[2023.10.13-15.15.52:201][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 253 ms (total: 9.07 sec)
+[2023.10.13-15.15.52:206][419]AssetCheck: New page: Asset Save: level_zero
+[2023.10.13-15.15.52:206][419]LogContentValidation: Display: Validating /Script/Engine.World /Game/game_assets/level/level_zero.level_zero
+[2023.10.13-15.16.10:528][560]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_.bp_pistol_pickup_Child_
+[2023.10.13-15.16.10:529][560]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-15.16.10:529][560]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-15.16.10:838][560]LogViewport: Scene viewport resized to 1004x805, mode Windowed.
+[2023.10.13-15.16.11:869][579]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.16.12:156][579]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_
+[2023.10.13-15.16.12:156][579]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pistol_pickup_Child_73C9D4764F96CCAC1E3197B42CC4308C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_.uasset'
+[2023.10.13-15.16.12:197][579]LogFileHelpers: InternalPromptForCheckoutAndSave took 328 ms (total: 9.40 sec)
+[2023.10.13-15.16.12:201][579]AssetCheck: New page: Asset Save: bp_pistol_pickup_Child_
+[2023.10.13-15.16.12:201][579]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_.bp_pistol_pickup_Child_
+[2023.10.13-15.16.53:176][456]BlueprintLog: New page: Compile bp_pistol_pickup_Child_
+[2023.10.13-15.16.53:236][456]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.10.13-15.16.53:986][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.16.54:131][475]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_
+[2023.10.13-15.16.54:132][475]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pistol_pickup_Child_AA317E164D3A2CB3861461BAF333EA73.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_.uasset'
+[2023.10.13-15.16.54:151][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 9.57 sec)
+[2023.10.13-15.16.54:154][475]AssetCheck: New page: Asset Save: bp_pistol_pickup_Child_
+[2023.10.13-15.16.54:155][475]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_.bp_pistol_pickup_Child_
+[2023.10.13-15.18.09:002][328]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-15.18.09:002][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-15.18.09:534][341]LogSlate: Window 'bp_pistol_pickup_Child_' being destroyed
+[2023.10.13-15.18.09:559][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.10.13-15.18.09:559][341]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-15.18.09:559][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-15.18.13:424][530]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-15.18.13:424][530]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-15.18.13:424][530]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-15.18.13:802][530]LogViewport: Scene viewport resized to 1004x805, mode Windowed.
+[2023.10.13-15.18.41:927][149]BlueprintLog: New page: Compile bp_wepon_master
+[2023.10.13-15.18.41:984][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.10.13-15.18.42:725][165]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.18.42:862][165]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-15.18.42:863][165]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_masterFB5B7ED84DB42C488B4E138DD36DC342.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-15.18.42:881][165]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 9.72 sec)
+[2023.10.13-15.18.42:885][165]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-15.18.42:885][165]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-15.19.19:002][631]BlueprintLog: New page: Compile bp_wepon_master
+[2023.10.13-15.19.19:070][631]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2023.10.13-15.20.16:176][724]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.20.16:319][724]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-15.20.16:319][724]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_masterFB8C708446B754DFAE07CA92D03B6E92.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-15.20.16:339][724]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 9.88 sec)
+[2023.10.13-15.20.16:342][724]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-15.20.16:342][724]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-15.20.17:479][759]BlueprintLog: New page: Compile bp_wepon_master
+[2023.10.13-15.20.17:539][759]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2023.10.13-15.20.18:185][776]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.20.18:315][776]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-15.20.18:316][776]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_master078FC41A4FFFA225A5F24DA18ABAB997.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-15.20.18:331][776]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 10.0 sec)
+[2023.10.13-15.20.18:334][776]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-15.20.18:334][776]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-15.20.43:726][230]BlueprintLog: New page: Compile bp_wepon_master
+[2023.10.13-15.20.43:790][230]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2023.10.13-15.20.44:432][248]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.20.44:582][248]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-15.20.44:583][248]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_masterF8E2265947A2171D9EBC64B88BF7F594.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-15.20.44:605][248]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 10.2 sec)
+[2023.10.13-15.20.44:607][248]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-15.20.44:607][248]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-15.21.06:232][556]BlueprintLog: New page: Compile bp_wepon_master
+[2023.10.13-15.21.06:407][556]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2023.10.13-15.21.06:867][571]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-15.21.07:031][571]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-15.21.07:032][571]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_master591B08C74D54D0ED514ACEB00D73AEFD.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-15.21.07:044][571]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 10.3 sec)
+[2023.10.13-15.21.07:053][571]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-15.21.07:053][571]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-15.23.13:943][764]LogDerivedDataCache: C:/Users/PARTH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:46.144 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 23504 files in 26592 folders with total size 2842 MiB.
+[2023.10.13-16.19.35:737][362]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2023.10.13-16.19.35:741][362]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/game_assets/level/level_zero' took 0.036
+[2023.10.13-16.19.35:742][362]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/game_assets/propes_pick/wepons/bp_wepon_master] ([2] browsable assets)...
+[2023.10.13-16.19.35:742][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/game_assets/propes_pick/wepons/bp_wepon_master]
+[2023.10.13-16.19.35:750][362]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/game_assets/propes_pick/wepons/bp_wepon_master_Auto4
+[2023.10.13-16.19.35:750][362]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_master_Auto4D831B9574F8D1FFC759F7EAEBB07C4D5.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/Autosaves/Game/game_assets/propes_pick/wepons/bp_wepon_master_Auto4.uasset'
+[2023.10.13-16.19.35:751][362]LogFileHelpers: Auto-saving content packages took 0.009
+[2023.10.13-16.20.16:384][716]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.20.16:646][716]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-16.20.16:647][716]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_masterAB0F693245110F7FE7A71B8DC18C3C87.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-16.20.16:745][716]LogFileHelpers: InternalPromptForCheckoutAndSave took 360 ms (total: 10.7 sec)
+[2023.10.13-16.20.16:748][716]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-16.20.16:748][716]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-16.20.51:915][979]LogViewport: Scene viewport resized to 999x805, mode Windowed.
+[2023.10.13-16.20.52:044][980]LogViewport: Scene viewport resized to 954x805, mode Windowed.
+[2023.10.13-16.20.52:115][981]LogViewport: Scene viewport resized to 928x805, mode Windowed.
+[2023.10.13-16.20.52:176][982]LogViewport: Scene viewport resized to 906x805, mode Windowed.
+[2023.10.13-16.20.52:241][983]LogViewport: Scene viewport resized to 883x805, mode Windowed.
+[2023.10.13-16.20.52:327][984]LogViewport: Scene viewport resized to 847x805, mode Windowed.
+[2023.10.13-16.20.52:398][985]LogViewport: Scene viewport resized to 827x805, mode Windowed.
+[2023.10.13-16.20.52:460][986]LogViewport: Scene viewport resized to 808x805, mode Windowed.
+[2023.10.13-16.20.52:531][987]LogViewport: Scene viewport resized to 788x805, mode Windowed.
+[2023.10.13-16.20.52:598][988]LogViewport: Scene viewport resized to 773x805, mode Windowed.
+[2023.10.13-16.20.52:683][989]LogViewport: Scene viewport resized to 772x805, mode Windowed.
+[2023.10.13-16.20.52:891][993]LogViewport: Scene viewport resized to 771x805, mode Windowed.
+[2023.10.13-16.20.53:019][994]LogViewport: Scene viewport resized to 671x805, mode Windowed.
+[2023.10.13-16.20.53:081][995]LogViewport: Scene viewport resized to 599x805, mode Windowed.
+[2023.10.13-16.20.53:157][996]LogViewport: Scene viewport resized to 546x805, mode Windowed.
+[2023.10.13-16.20.53:227][997]LogViewport: Scene viewport resized to 518x805, mode Windowed.
+[2023.10.13-16.20.53:296][998]LogViewport: Scene viewport resized to 513x805, mode Windowed.
+[2023.10.13-16.20.54:048][  8]LogViewport: Scene viewport resized to 519x805, mode Windowed.
+[2023.10.13-16.20.54:180][  9]LogViewport: Scene viewport resized to 636x805, mode Windowed.
+[2023.10.13-16.20.54:240][ 10]LogViewport: Scene viewport resized to 712x805, mode Windowed.
+[2023.10.13-16.20.54:339][ 11]LogViewport: Scene viewport resized to 784x805, mode Windowed.
+[2023.10.13-16.20.54:437][ 12]LogViewport: Scene viewport resized to 814x805, mode Windowed.
+[2023.10.13-16.20.54:541][ 13]LogViewport: Scene viewport resized to 838x805, mode Windowed.
+[2023.10.13-16.20.54:642][ 14]LogViewport: Scene viewport resized to 853x805, mode Windowed.
+[2023.10.13-16.20.54:707][ 15]LogViewport: Scene viewport resized to 855x805, mode Windowed.
+[2023.10.13-16.20.54:917][ 19]LogViewport: Scene viewport resized to 864x805, mode Windowed.
+[2023.10.13-16.20.55:045][ 20]LogViewport: Scene viewport resized to 877x805, mode Windowed.
+[2023.10.13-16.20.55:110][ 21]LogViewport: Scene viewport resized to 880x805, mode Windowed.
+[2023.10.13-16.20.55:178][ 22]LogViewport: Scene viewport resized to 887x805, mode Windowed.
+[2023.10.13-16.20.55:243][ 23]LogViewport: Scene viewport resized to 901x805, mode Windowed.
+[2023.10.13-16.20.55:310][ 24]LogViewport: Scene viewport resized to 913x805, mode Windowed.
+[2023.10.13-16.20.55:375][ 25]LogViewport: Scene viewport resized to 924x805, mode Windowed.
+[2023.10.13-16.20.55:446][ 26]LogViewport: Scene viewport resized to 934x805, mode Windowed.
+[2023.10.13-16.20.55:511][ 27]LogViewport: Scene viewport resized to 943x805, mode Windowed.
+[2023.10.13-16.20.55:577][ 28]LogViewport: Scene viewport resized to 947x805, mode Windowed.
+[2023.10.13-16.20.55:642][ 29]LogViewport: Scene viewport resized to 950x805, mode Windowed.
+[2023.10.13-16.20.55:706][ 30]LogViewport: Scene viewport resized to 952x805, mode Windowed.
+[2023.10.13-16.20.55:850][ 33]LogViewport: Scene viewport resized to 951x805, mode Windowed.
+[2023.10.13-16.20.55:974][ 34]LogViewport: Scene viewport resized to 848x805, mode Windowed.
+[2023.10.13-16.20.56:146][ 35]LogViewport: Scene viewport resized to 721x805, mode Windowed.
+[2023.10.13-16.20.56:209][ 36]LogViewport: Scene viewport resized to 719x805, mode Windowed.
+[2023.10.13-16.20.56:948][ 48]LogViewport: Scene viewport resized to 728x805, mode Windowed.
+[2023.10.13-16.20.57:080][ 49]LogViewport: Scene viewport resized to 775x805, mode Windowed.
+[2023.10.13-16.20.57:144][ 50]LogViewport: Scene viewport resized to 792x805, mode Windowed.
+[2023.10.13-16.20.57:246][ 51]LogViewport: Scene viewport resized to 812x805, mode Windowed.
+[2023.10.13-16.20.57:314][ 52]LogViewport: Scene viewport resized to 824x805, mode Windowed.
+[2023.10.13-16.20.57:380][ 53]LogViewport: Scene viewport resized to 850x805, mode Windowed.
+[2023.10.13-16.20.57:445][ 54]LogViewport: Scene viewport resized to 863x805, mode Windowed.
+[2023.10.13-16.20.57:515][ 55]LogViewport: Scene viewport resized to 875x805, mode Windowed.
+[2023.10.13-16.20.57:586][ 56]LogViewport: Scene viewport resized to 888x805, mode Windowed.
+[2023.10.13-16.20.57:650][ 57]LogViewport: Scene viewport resized to 900x805, mode Windowed.
+[2023.10.13-16.20.57:727][ 58]LogViewport: Scene viewport resized to 912x805, mode Windowed.
+[2023.10.13-16.20.57:798][ 59]LogViewport: Scene viewport resized to 923x805, mode Windowed.
+[2023.10.13-16.20.57:866][ 60]LogViewport: Scene viewport resized to 930x805, mode Windowed.
+[2023.10.13-16.20.57:933][ 61]LogViewport: Scene viewport resized to 939x805, mode Windowed.
+[2023.10.13-16.20.58:000][ 62]LogViewport: Scene viewport resized to 947x805, mode Windowed.
+[2023.10.13-16.20.58:064][ 63]LogViewport: Scene viewport resized to 951x805, mode Windowed.
+[2023.10.13-16.20.58:282][ 64]LogViewport: Scene viewport resized to 954x805, mode Windowed.
+[2023.10.13-16.20.58:344][ 65]LogViewport: Scene viewport resized to 983x805, mode Windowed.
+[2023.10.13-16.20.58:410][ 66]LogViewport: Scene viewport resized to 997x805, mode Windowed.
+[2023.10.13-16.20.58:476][ 67]LogViewport: Scene viewport resized to 1013x805, mode Windowed.
+[2023.10.13-16.20.58:547][ 68]LogViewport: Scene viewport resized to 1022x805, mode Windowed.
+[2023.10.13-16.20.58:614][ 69]LogViewport: Scene viewport resized to 1027x805, mode Windowed.
+[2023.10.13-16.20.58:676][ 70]LogViewport: Scene viewport resized to 1033x805, mode Windowed.
+[2023.10.13-16.20.58:744][ 71]LogViewport: Scene viewport resized to 1039x805, mode Windowed.
+[2023.10.13-16.20.58:811][ 72]LogViewport: Scene viewport resized to 1048x805, mode Windowed.
+[2023.10.13-16.20.58:877][ 73]LogViewport: Scene viewport resized to 1053x805, mode Windowed.
+[2023.10.13-16.20.58:949][ 74]LogViewport: Scene viewport resized to 1057x805, mode Windowed.
+[2023.10.13-16.20.59:020][ 75]LogViewport: Scene viewport resized to 1058x805, mode Windowed.
+[2023.10.13-16.20.59:081][ 76]LogViewport: Scene viewport resized to 1059x805, mode Windowed.
+[2023.10.13-16.20.59:150][ 77]LogViewport: Scene viewport resized to 1060x805, mode Windowed.
+[2023.10.13-16.21.00:395][ 93]BlueprintLog: New page: Compile bp_wepon_master
+[2023.10.13-16.21.00:461][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.10.13-16.21.01:141][101]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.21.01:418][101]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-16.21.01:418][101]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_masterF3686EAB48891813B4C9FD9C7FB1A399.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-16.21.01:518][101]LogFileHelpers: InternalPromptForCheckoutAndSave took 377 ms (total: 11.1 sec)
+[2023.10.13-16.21.01:523][101]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-16.21.01:524][101]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-16.22.42:737][814]BlueprintLog: New page: Compile bp_wepon_master
+[2023.10.13-16.22.42:841][814]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2023.10.13-16.22.43:437][821]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.22.43:725][821]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-16.22.43:726][821]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_masterD88369FB4C493B2A48DB2385B24F3A4C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-16.22.43:824][821]LogFileHelpers: InternalPromptForCheckoutAndSave took 387 ms (total: 11.5 sec)
+[2023.10.13-16.22.43:827][821]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-16.22.43:827][821]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-16.23.07:199][942]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.23.07:479][942]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_wepon_master
+[2023.10.13-16.23.07:480][942]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_master36936AB44380ECEC81BAD7B3CC2AB41C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_wepon_master.uasset'
+[2023.10.13-16.23.07:578][942]LogFileHelpers: InternalPromptForCheckoutAndSave took 379 ms (total: 11.8 sec)
+[2023.10.13-16.23.07:579][942]AssetCheck: New page: Asset Save: bp_wepon_master
+[2023.10.13-16.23.07:580][942]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-16.23.08:419][953]LogSlate: Window 'bp_wepon_master' being destroyed
+[2023.10.13-16.23.08:551][953]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-16.23.08:551][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-16.23.14:797][ 17]LogContentBrowser: Deferred new asset file creation: bp_wepon_master_Child
+[2023.10.13-16.23.14:856][ 17]LogContentBrowser: Creating deferred item: bp_wepon_master_Child
+[2023.10.13-16.23.14:882][ 18]LogContentBrowser: Renaming the item being created (Deferred Item: bp_wepon_master_Child).
+[2023.10.13-16.23.16:409][ 66]LogContentBrowser: Attempting asset rename: bp_wepon_master_Child -> bp_wepon_master_Child
+[2023.10.13-16.23.16:420][ 66]LogContentBrowser: End creating deferred item bp_wepon_master_Child
+[2023.10.13-16.23.35:062][380]LogContentBrowser: Attempting asset rename: bp_wepon_master_Child -> bp_pistol
+[2023.10.13-16.23.35:116][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:116][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.SKEL_bp_pistol_C:UserConstructionScript' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:116][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.SKEL_bp_pistol_C' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:117][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol_C' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:117][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol:EventGraph.K2Node_Event_0' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:117][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:117][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol:EventGraph.K2Node_Event_1' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:117][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:117][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol:EventGraph.K2Node_Event_2' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:117][380]LogMetaData: Removing '/Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/game_assets/propes_pick/wepons/bp_wepon_master_Child.PackageMetaData'
+[2023.10.13-16.23.35:117][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.23.35:263][380]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_pistol
+[2023.10.13-16.23.35:263][380]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pistolC2B76D2845DD19E767635BBC865B633B.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_pistol.uasset'
+[2023.10.13-16.23.35:367][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 250 ms (total: 12.1 sec)
+[2023.10.13-16.23.35:404][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2023.10.13-16.23.35:434][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.10.13-16.23.35:457][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.10.13-16.23.35:461][380]AssetCheck: New page: Asset Save: bp_pistol
+[2023.10.13-16.23.35:461][380]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol
+[2023.10.13-16.23.37:226][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.23.37:473][412]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_pistol
+[2023.10.13-16.23.37:474][412]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pistol9CBF13E64D9E6E17A6A0689DF80F5F19.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_pistol.uasset'
+[2023.10.13-16.23.37:571][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 345 ms (total: 12.4 sec)
+[2023.10.13-16.23.37:576][412]AssetCheck: New page: Asset Save: bp_pistol
+[2023.10.13-16.23.37:576][412]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol
+[2023.10.13-16.23.38:533][429]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol
+[2023.10.13-16.23.38:534][429]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.23.38:534][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-16.23.39:135][429]LogViewport: Scene viewport resized to 1060x805, mode Windowed.
+[2023.10.13-16.24.05:894][658]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.24.05:911][658]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-16.24.06:685][664]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SK_KA47.SK_KA47 has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-16.24.07:386][671]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.24.11:645][713]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-16.24.11:745][714]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-16.24.11:945][716]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-16.24.12:672][723]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-16.24.13:927][733]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.24.16:264][759]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-16.24.17:083][764]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SK_KA47.SK_KA47 has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-16.24.29:088][866]BlueprintLog: New page: Compile bp_pistol
+[2023.10.13-16.24.29:191][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.10.13-16.24.30:909][883]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.24.31:244][883]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_pistol
+[2023.10.13-16.24.31:244][883]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pistol428DE4254EFF1A4AF49ED086AB241343.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_pistol.uasset'
+[2023.10.13-16.24.31:300][883]LogFileHelpers: InternalPromptForCheckoutAndSave took 391 ms (total: 12.8 sec)
+[2023.10.13-16.24.31:307][883]AssetCheck: New page: Asset Save: bp_pistol
+[2023.10.13-16.24.31:307][883]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol
+[2023.10.13-16.25.28:630][972]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_.bp_pistol_pickup_Child_
+[2023.10.13-16.25.28:630][972]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.25.28:630][972]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-16.25.30:911][999]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-16.25.30:911][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-16.25.31:000][999]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/pickup/bp_pistol_pickup_Child_.bp_pistol_pickup_Child_
+[2023.10.13-16.25.31:000][999]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.25.31:000][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-16.25.32:835][ 17]LogViewport: Scene viewport resized to 1060x805, mode Windowed.
+[2023.10.13-16.25.36:287][ 58]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-16.25.36:287][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-16.32.31:035][827]BlueprintLog: New page: Compile bp_pistol
+[2023.10.13-16.32.31:141][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.10.13-16.32.31:704][835]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.32.32:026][835]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/wepons/bp_pistol
+[2023.10.13-16.32.32:027][835]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pistol78AD218E4C8A506F5189B18F84CDD6AC.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/wepons/bp_pistol.uasset'
+[2023.10.13-16.32.32:089][835]LogFileHelpers: InternalPromptForCheckoutAndSave took 385 ms (total: 13.2 sec)
+[2023.10.13-16.32.32:092][835]AssetCheck: New page: Asset Save: bp_pistol
+[2023.10.13-16.32.32:092][835]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/wepons/bp_pistol.bp_pistol
+[2023.10.13-16.32.36:122][907]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-16.32.36:122][907]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.32.36:123][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-16.34.59:299][801]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.13-16.34.59:462][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2023.10.13-16.35.05:738][878]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.35.06:150][878]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.35.06:252][878]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-16.35.06:253][878]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacterF79D6C094F93A3EEDEAE0D9209796040.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-16.35.06:304][878]LogFileHelpers: InternalPromptForCheckoutAndSave took 566 ms (total: 13.8 sec)
+[2023.10.13-16.35.06:309][878]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-16.35.06:309][878]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-16.35.47:714][143]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.13-16.35.47:826][143]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2023.10.13-16.35.48:604][152]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.35.48:964][152]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-16.35.48:965][152]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacterB7FE88124AFDD6879CCBED83D4BE7C14.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-16.35.49:019][152]LogFileHelpers: InternalPromptForCheckoutAndSave took 415 ms (total: 14.2 sec)
+[2023.10.13-16.35.49:023][152]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-16.35.49:023][152]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-16.37.02:863][730]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.13-16.37.03:006][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.10.13-16.37.03:616][735]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.37.03:963][735]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-16.37.03:964][735]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacterA3C2103D478D5E35A545EFBCAFF38E5B.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-16.37.04:012][735]LogFileHelpers: InternalPromptForCheckoutAndSave took 397 ms (total: 14.6 sec)
+[2023.10.13-16.37.04:017][735]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-16.37.04:017][735]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-16.37.29:948][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.37.30:258][831]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-16.37.30:259][831]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacterCE9D24BE4DCAA51A26DA229B5CCC00D7.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-16.37.30:338][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 390 ms (total: 15.0 sec)
+[2023.10.13-16.37.30:342][831]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-16.37.30:342][831]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-16.37.37:421][964]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-16.37.37:421][964]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.37.37:421][964]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-16.38.16:255][245]BlueprintLog: New page: Compile bp_pickup_master
+[2023.10.13-16.38.16:359][245]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2023.10.13-16.38.17:784][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.38.18:303][262]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pickup_master
+[2023.10.13-16.38.18:304][262]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_masterC2D17B0D49ED0BC1E606A4B46E9F85E5.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pickup_master.uasset'
+[2023.10.13-16.38.18:353][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 568 ms (total: 15.6 sec)
+[2023.10.13-16.38.18:356][262]AssetCheck: New page: Asset Save: bp_pickup_master
+[2023.10.13-16.38.18:356][262]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-16.38.42:474][709]LogContentBrowser: Attempting asset rename: bpi_interface -> bpi_interact
+[2023.10.13-16.38.42:534][709]LogMetaData: Removing '/Game/game_assets/interfaces/bpi_interact.SKEL_bpi_interact_C' ref from Metadata '/Game/game_assets/interfaces/bpi_interface.PackageMetaData'
+[2023.10.13-16.38.42:534][709]LogMetaData: Removing '/Game/game_assets/interfaces/bpi_interact.bpi_interact_C' ref from Metadata '/Game/game_assets/interfaces/bpi_interface.PackageMetaData'
+[2023.10.13-16.38.42:534][709]LogMetaData: Removing '/Game/game_assets/interfaces/bpi_interact.bpi_interact:interact.K2Node_FunctionEntry_0' ref from Metadata '/Game/game_assets/interfaces/bpi_interface.PackageMetaData'
+[2023.10.13-16.38.42:551][709]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.38.42:776][709]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-16.38.42:776][709]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacter2BCAA5FD4A26B342619B40A82C4293C3.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-16.38.42:797][709]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pickup_master
+[2023.10.13-16.38.42:797][709]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_master32861EEF4E37363706E67E869AB1A5D4.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pickup_master.uasset'
+[2023.10.13-16.38.42:803][709]LogSavePackage: Moving output files for package: /Game/game_assets/interfaces/bpi_interact
+[2023.10.13-16.38.42:803][709]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bpi_interact8863A068461E26FCDCBC949DCC548B60.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/interfaces/bpi_interact.uasset'
+[2023.10.13-16.38.42:863][709]LogFileHelpers: InternalPromptForCheckoutAndSave took 311 ms (total: 15.9 sec)
+[2023.10.13-16.38.42:911][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.10.13-16.38.42:940][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2023.10.13-16.38.42:968][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.10.13-16.38.42:979][709]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.13-16.38.42:979][709]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-16.38.42:979][709]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-16.38.42:979][709]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/interfaces/bpi_interact.bpi_interact
+[2023.10.13-16.38.56:189][964]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/wepons/bp_wepon_master.bp_wepon_master
+[2023.10.13-16.38.56:190][964]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.38.56:190][964]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-16.39.02:493][ 44]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-16.39.02:494][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-16.39.06:187][ 93]BlueprintLog: New page: Compile bp_pickup_master
+[2023.10.13-16.39.06:293][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2023.10.13-16.39.07:708][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.39.08:042][109]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_pickup_master
+[2023.10.13-16.39.08:042][109]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_pickup_masterEAA9E0924E207498E3AC3AB5D32EE6C2.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_pickup_master.uasset'
+[2023.10.13-16.39.08:092][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 383 ms (total: 16.2 sec)
+[2023.10.13-16.39.08:095][109]AssetCheck: New page: Asset Save: bp_pickup_master
+[2023.10.13-16.39.08:095][109]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_pickup_master.bp_pickup_master
+[2023.10.13-16.39.41:074][409]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child
+[2023.10.13-16.39.41:074][409]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-16.39.41:074][409]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-16.40.23:750][602]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2023.10.13-16.40.23:753][602]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/game_assets/level/level_zero' took 0.039
+[2023.10.13-16.40.23:754][602]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child] ([2] browsable assets)...
+[2023.10.13-16.40.23:806][602]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child]
+[2023.10.13-16.40.23:806][602]OBJ SavePackage: Finished generating thumbnails for package [/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child]
+[2023.10.13-16.40.23:816][602]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child_Auto5
+[2023.10.13-16.40.23:816][602]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_pickup_Child_Auto563616BC34DBCF464F678D989EDE794D4.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/Autosaves/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child_Auto5.uasset'
+[2023.10.13-16.40.23:817][602]LogFileHelpers: Auto-saving content packages took 0.064
+[2023.10.13-16.44.50:870][386]LogDerivedDataCache: C:/Users/PARTH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:46.337 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 23504 files in 26592 folders with total size 2842 MiB.
+[2023.10.13-16.57.44:226][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.10.13-16.57.44:230][878]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/game_assets/level/level_zero' took 0.029
+[2023.10.13-16.57.44:230][878]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child] ([2] browsable assets)...
+[2023.10.13-16.57.44:275][878]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child]
+[2023.10.13-16.57.44:275][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child]
+[2023.10.13-16.57.44:286][878]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child_Auto6
+[2023.10.13-16.57.44:286][878]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_pickup_Child_Auto609C730014AB0627B40E7B4910B88A90C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/Autosaves/Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child_Auto6.uasset'
+[2023.10.13-16.57.44:287][878]LogFileHelpers: Auto-saving content packages took 0.057
+[2023.10.13-16.57.45:404][889]BlueprintLog: New page: Compile bp_wepon_pickup_Child
+[2023.10.13-16.57.45:540][889]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2023.10.13-16.57.46:301][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-16.57.46:767][895]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child
+[2023.10.13-16.57.46:768][895]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_pickup_Child898B2E3A4CA4F3744F4A31818A2D8BD8.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.uasset'
+[2023.10.13-16.57.46:902][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 601 ms (total: 16.8 sec)
+[2023.10.13-16.57.46:908][895]AssetCheck: New page: Asset Save: bp_wepon_pickup_Child
+[2023.10.13-16.57.46:909][895]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child
+[2023.10.13-16.58.17:281][ 59]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.10.13-17.00.50:087][218]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.13-17.00.50:209][218]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.10.13-17.00.50:739][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-17.00.51:052][221]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-17.00.51:052][221]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacter3638BD0748D25A8EFB6C91AA3B94CAF8.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-17.00.51:104][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 363 ms (total: 17.2 sec)
+[2023.10.13-17.00.51:107][221]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-17.00.51:107][221]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-17.01.25:420][419]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.13-17.01.25:530][419]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2023.10.13-17.01.26:019][423]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-17.01.26:366][423]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-17.01.26:367][423]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacter6FBF0BB34AB86C62743A16A7C015933C.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-17.01.26:418][423]LogFileHelpers: InternalPromptForCheckoutAndSave took 398 ms (total: 17.6 sec)
+[2023.10.13-17.01.26:421][423]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-17.01.26:421][423]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-17.17.45:298][687]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-17.17.45:664][687]LogSavePackage: Moving output files for package: /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child
+[2023.10.13-17.17.45:665][687]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/bp_wepon_pickup_Child807B20C649A7208F344638A008C3CC1B.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.uasset'
+[2023.10.13-17.17.45:713][687]LogFileHelpers: InternalPromptForCheckoutAndSave took 414 ms (total: 18.0 sec)
+[2023.10.13-17.17.45:716][687]AssetCheck: New page: Asset Save: bp_wepon_pickup_Child
+[2023.10.13-17.17.45:716][687]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/game_assets/propes_pick/pickup/bp_wepon_pickup_Child.bp_wepon_pickup_Child
+[2023.10.13-17.18.11:103][999]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-17.18.11:429][999]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-17.18.11:430][999]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacter514F92BA4ACC5E6AB62793B05C6B7FC9.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-17.18.11:492][999]LogFileHelpers: InternalPromptForCheckoutAndSave took 389 ms (total: 18.4 sec)
+[2023.10.13-17.18.11:496][999]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-17.18.11:496][999]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-17.20.10:614][785]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2023.10.13-17.20.10:619][785]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/game_assets/level/level_zero' took 0.038
+[2023.10.13-17.20.10:620][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2023.10.13-17.20.10:677][785]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2023.10.13-17.20.10:677][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2023.10.13-17.20.10:732][785]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto7
+[2023.10.13-17.20.10:732][785]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacter_Auto7857C38C44B9CD73C5A97918D58EA8ECB.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto7.uasset'
+[2023.10.13-17.20.10:733][785]LogFileHelpers: Auto-saving content packages took 0.114
+[2023.10.13-17.21.18:094][453]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.13-17.21.18:204][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2023.10.13-17.21.19:272][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-17.21.19:555][463]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-17.21.19:556][463]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacterB10B80B1432D853ED003CAB4B971B0D4.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-17.21.19:601][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 329 ms (total: 18.7 sec)
+[2023.10.13-17.21.19:605][463]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-17.21.19:605][463]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: libcurl info message cache 0 (Found bundle for host: 0x7b3cd1601e0 [serially])
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: libcurl info message cache 1 (Re-using existing connection #4 with host datarouter.ol.epicgames.com)
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.153.227.153) port 443 (#4))
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: 000007B4390CCD00: libcurl info message cache 7 (Closing connection 4)
+[2023.10.13-17.22.03:170][598]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6A239329-4434-18F8-9332-CEB4AA64FC59%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=7ff37bf742d335d3ba94e291dc87446e%7C45f5c709f6b44d10810edfd14a8d0d5a%7Cdf135c8b-9975-428c-bb28-336c363e3077&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.13-17.22.35:630][820]LogHttp: Warning: 000007B4620C0000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.13-17.22.35:630][820]LogHttp: Warning: 000007B4620C0000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.13-17.22.35:630][820]LogHttp: Warning: 000007B4620C0000: libcurl info message cache 1 (Closing connection 5)
+[2023.10.13-17.22.35:630][820]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6A239329-4434-18F8-9332-CEB4AA64FC59%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=7ff37bf742d335d3ba94e291dc87446e%7C45f5c709f6b44d10810edfd14a8d0d5a%7Cdf135c8b-9975-428c-bb28-336c363e3077&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.13-17.23.15:247][263]LogEditorTransaction: Undo Create Reroute Node
+[2023.10.13-17.23.35:541][499]LogHttp: Warning: 000007B44A9C9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.13-17.23.35:541][499]LogHttp: Warning: 000007B44A9C9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.13-17.23.35:541][499]LogHttp: Warning: 000007B44A9C9600: libcurl info message cache 1 (Closing connection 6)
+[2023.10.13-17.23.35:541][499]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6A239329-4434-18F8-9332-CEB4AA64FC59%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=7ff37bf742d335d3ba94e291dc87446e%7C45f5c709f6b44d10810edfd14a8d0d5a%7Cdf135c8b-9975-428c-bb28-336c363e3077&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.13-17.24.14:161][965]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.13-17.24.14:321][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2023.10.13-17.24.15:080][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-17.24.15:440][973]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-17.24.15:441][973]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacter220F6720427A3987E9A8DBB671D0A4D9.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-17.24.15:491][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 411 ms (total: 19.2 sec)
+[2023.10.13-17.24.15:493][973]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-17.24.15:493][973]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-17.39.43:113][956]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.13-17.39.43:273][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2023.10.13-17.39.44:079][963]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-17.39.44:437][963]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.13-17.39.44:437][963]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/BP_ThirdPersonCharacterCB88EC3A4C6B0E721489C7898811C0F4.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.13-17.39.44:488][963]LogFileHelpers: InternalPromptForCheckoutAndSave took 407 ms (total: 19.6 sec)
+[2023.10.13-17.39.44:492][963]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2023.10.13-17.39.44:492][963]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.13-17.40.34:533][172]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple
+[2023.10.13-17.40.34:544][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-17.40.34:544][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-17.40.34:641][172]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.10.13-17.40.35:226][172]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2023.10.13-17.40.35:526][172]LogViewport: Scene viewport resized to 1422x795, mode Windowed.
+[2023.10.13-17.40.45:620][307]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin
+[2023.10.13-17.40.45:621][307]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-17.40.45:621][307]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-17.40.45:746][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.10.13-17.40.46:248][307]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-17.40.46:248][307]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-17.40.46:541][307]LogViewport: Scene viewport resized to 1134x795, mode Windowed.
+[2023.10.13-17.41.31:871][790]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.32:137][792]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.33:625][803]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.36:761][822]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.36:894][823]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.37:163][824]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.37:312][825]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.37:480][826]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.37:647][827]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.37:813][828]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.37:980][829]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.38:147][830]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.38:313][831]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.38:480][832]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.38:647][833]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.38:814][834]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.38:980][835]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.39:196][836]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.39:363][837]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.39:528][838]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.39:696][839]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.41.45:304][873]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.42.13:559][ 30]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.42.14:264][ 35]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.42.14:531][ 37]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.42.22:039][ 87]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/game_assets/wepons/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A has no skeleton. This needs to fixed before an animation can be set
+[2023.10.13-17.44.42:311][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-17.44.42:593][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-17.44.42:657][  8]LogSavePackage: Moving output files for package: /Game/Characters/Mannequins/Meshes/SK_Mannequin
+[2023.10.13-17.44.42:658][  8]LogSavePackage: Moving '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Saved/SK_Mannequin16A745054C79AC2F15D0E3B033E20A83.tmp' to '../../../../../Users/PARTH/Documents/Unreal Projects/Target-zero/Target_Zero/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset'
+[2023.10.13-17.44.42:708][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 396 ms (total: 20.0 sec)
+[2023.10.13-17.44.42:715][  8]AssetCheck: New page: Asset Save: SK_Mannequin
+[2023.10.13-17.44.42:715][  8]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin
+[2023.10.13-17.44.50:053][ 68]LogDerivedDataCache: C:/Users/PARTH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:45.519 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 23504 files in 26592 folders with total size 2842 MiB.
